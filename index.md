@@ -2,7 +2,7 @@
 title: Welcome to IOC
 ---
 
-*A message from our founders...&nbsp;*
+*A message from our founders…&nbsp;*
 
 ![](/uploads/ioc-internal-4784.jpg){: width="800" height="533"}
 
@@ -58,7 +58,7 @@ Our program is all-inclusive, so that from the moment you touch down you can foc
 
 #### Lifetime Support
 
-We provide all of our students with unlimited lifetime technical and career support -- yep, you read that right. We believe that once you attend one our programs you are part of the IOC family for life, and we'll be there every step of the way.
+We provide all of our students with unlimited lifetime technical and career support – yep, you read that right. We believe that once you attend one our programs you are part of the IOC family for life, and we'll be there every step of the way.
 
 Whether you need help with a website you built or a campaign you are running, need help pitching to a client or landing your dream job or want advice on how to manage your ever growing client list we've got your back.
 
@@ -70,7 +70,7 @@ We consolidate as much of that knowledge as possible into our comprehensive onli
 
 ### Getting you in the flow state with our accelerated learning environment
 
-When you arrive at our villa in Bali, you'll immediately understand how we're different -- we take our students away from the stress and distractions of everyday life and take care of every little detail so that you can focus on one thing - learning.
+When you arrive at our villa in Bali, you'll immediately understand how we're different – we take our students away from the stress and distractions of everyday life and take care of every little detail so that you can focus on one thing - learning.
 
 ![](/uploads/ioc-5dm49212.jpg){: width="1600" height="1066"}
 
