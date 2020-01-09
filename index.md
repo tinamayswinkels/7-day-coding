@@ -54,7 +54,7 @@ At the in-person bootcamp you'll take your skills to the next level with more ad
 
 Our program is all-inclusive, so that from the moment you touch down you can focus on learning. And with a 1-4 mentor ratio, you'll get all the one-on-one attention you need to kickstart your new career and build a global community of peers.
 
-![](/uploads/ioc-5dm49212.jpg){: width="800" height="533"}
+![](/uploads/ioc-15.jpg){: width="800" height="533"}
 
 #### Lifetime Support
 
