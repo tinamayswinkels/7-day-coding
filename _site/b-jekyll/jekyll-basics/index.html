@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v3.3.1">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="IOC Pre-Coursework" />
+		<!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Jekyll Basics - IOC Pre-Coursework</title>
+<meta property="og:title" content="Jekyll Basics" />
+<meta name="description" content="Step 1 - Setting up your website with Jekyll" />
+<meta property="og:description" content="Step 1 - Setting up your website with Jekyll" />
+<link rel="canonical" href="http://localhost:4000/b-jekyll/jekyll-basics/" />
+<meta property="og:url" content="http://localhost:4000/b-jekyll/jekyll-basics/" />
+<meta property="og:site_name" content="IOC Pre-Coursework" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-07T08:07:02+08:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Jekyll Basics",
+    "datePublished": "2019-11-07T08:07:02+08:00",
+    "description": "Step 1 - Setting up your website with Jekyll",
+    "logo": "http://localhost:4000/siteicon.png",
+    "url": "http://localhost:4000/b-jekyll/jekyll-basics/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+		
+	</head>
+
+	<body>
+		<header id="top">
+			<h1>
+				<a href="/"><img src="/images/emblem.svg" width="40" height="40" alt="IOC Pre-Coursework logo"></a>
+				
+				
+				Coursework 
+				
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Welcome to IOC</a>
+					</li>
+				</ul>
+
+				<ul>
+                    
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/a-positioning/intro-to-positioning/">Layouts & Positioning</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/a-positioning/intro-to-positioning/">Intro to Positioning</a></li>
+								
+									<li class="nav-item "><a href="/a-positioning/advanced-grids/">Advanced Grids</a></li>
+								
+									<li class="nav-item "><a href="/a-positioning/absolute-positioning/">Absolute Positioning</a></li>
+								
+									<li class="nav-item "><a href="/a-positioning/fixed-positioning/">Fixed Positioning</a></li>
+								
+									<li class="nav-item "><a href="/a-positioning/inline-block/">Inline Block</a></li>
+								
+									<li class="nav-item "><a href="/a-positioning/floats/">Floats</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/b-jekyll/intro-to-jekyll/">Jekyll</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/b-jekyll/intro-to-jekyll/">An Intro to Static Site Generators (like Jekyll)</a></li>
+								
+									<li class="nav-item "><a href="/b-jekyll/installing-jekyll/">Installing Jekyll</a></li>
+								
+									<li class="nav-item current"><a href="/b-jekyll/jekyll-basics/">Jekyll Basics</a></li>
+								
+									<li class="nav-item "><a href="/b-jekyll/if-statements-and-includes/">If Statements and Includes</a></li>
+								
+									<li class="nav-item "><a href="/b-jekyll/arrays-and-loops/">Arrays and Loops</a></li>
+								
+									<li class="nav-item "><a href="/b-jekyll/blogging-with-jekyll/">Blogging with Jekyll</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/c-jquery/animate-on-scroll/">jQuery</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/c-jquery/animate-on-scroll/">Animate On Scroll</a></li>
+								
+									<li class="nav-item "><a href="/c-jquery/building-a-mobile-nav/">Building A Mobile Nav</a></li>
+								
+									<li class="nav-item "><a href="/c-jquery/building-an-faqs-accordian/">Building An Faqs Accordian</a></li>
+								
+									<li class="nav-item "><a href="/c-jquery/interactive-filter/">Interactive Filter</a></li>
+								
+									<li class="nav-item "><a href="/c-jquery/intro-to-jquery/">Intro To Jquery</a></li>
+								
+									<li class="nav-item "><a href="/c-jquery/lightbox-gallery/">Lightbox Gallery</a></li>
+								
+									<li class="nav-item "><a href="/c-jquery/typing-text-animation/">Typing Text Animation</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/d-practical-projects/coming-soon-page/">Practical Projects</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/d-practical-projects/coming-soon-page/">Coming Soon Page</a></li>
+								
+									<li class="nav-item "><a href="/d-practical-projects/project-planning/">Project Planning</a></li>
+								
+									<li class="nav-item "><a href="/d-practical-projects/simple-blocks-template/">Simple Blocks Template</a></li>
+								
+									<li class="nav-item "><a href="/d-practical-projects/mattress-website/">Mattress Website</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/e-hosting-cms-domains/browser-compatability/">Hosting, CMS & Domain Names</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/browser-compatability/">Browser Compatability</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/cloudcannon/">Cloudcannon</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/domain-names/">Domain Names</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/forestry/">Forestry</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/performance-optimisation/">Performance Optimisation</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/github/">Github</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/netlify/">Netlify</a></li>
+								
+									<li class="nav-item "><a href="/e-hosting-cms-domains/getting-online/">Getting Online</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/h-Blocks-Template/banners/">Blocks Template</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/h-Blocks-Template/banners/">Banner's</a></li>
+								
+									<li class="nav-item "><a href="/h-Blocks-Template/faq/">FAQ</a></li>
+								
+									<li class="nav-item "><a href="/h-Blocks-Template/footers/">footer's</a></li>
+								
+									<li class="nav-item "><a href="/h-Blocks-Template/grids-and-galleries/">Grids and Galleries</a></li>
+								
+									<li class="nav-item "><a href="/h-Blocks-Template/headers/">headers</a></li>
+								
+									<li class="nav-item "><a href="/h-Blocks-Template/video/">video and maps</a></li>
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<li class="nav-item top-level">
+						
+        				<a href="https://web-dev.instituteofcode.com/a-Intro-to-Coding/1.setup/"> View Pre-Coursework </a>
+        				
+			    	</li>
+				</ul> 
+			</nav>
+		</header>
+		<a id="top-button" href="#top"><i class="fas fa-chevron-up"></i></a>
+		<section class="main">
+			<div class="page-header">
+				<h2>Jekyll</h2>
+				<h3>Jekyll Basics</h3>
+			</div>
+			<article class="content">
+				<h2 id="step-1---setting-up-your-website-with-jekyll">Step 1 - Setting up your website with Jekyll</h2>
+
+<div class="cms-embed" data-cms-embed="PGlmcmFtZSBmcmFtZWJvcmRlcj0iMCIgYWxsb3dmdWxsc2NyZWVuIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjQ1MHB4IiBzcmM9Ii8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL0dBbTV2UUVBRlFVIj48L2lmcmFtZT4="><iframe frameborder="0" allowfullscreen="" width="100%" height="450px" src="//www.youtube.com/embed/GAm5vQEAFQU"></iframe></div>
+
+<h2 id="jekyll-setup-summary">Jekyll Setup Summary</h2>
+
+<ol>
+  <li>Create a new folder for your project, and open it in atom (make surethe folder name is all lowercase and no spaces). In this example, our folder is located on the desktop and called ‘jekyll-project’.</li>
+  <li>Add an <code class="highlighter-rouge">**index.html**</code> and <code class="highlighter-rouge">**style.css**</code> file </li>
+  <li>Set up your document with the <code class="highlighter-rouge">**&lt;!DOCTYPE html&gt;**</code>, <code class="highlighter-rouge">**<span class="nt">&lt;html&gt;</span>**</code>, <code class="highlighter-rouge">**&lt;head&gt;**</code> and <strong><code class="highlighter-rouge">&lt;body&gt;</code></strong> elements<strong>.</strong></li>
+  <li>Add a <strong><code class="highlighter-rouge">&lt;header&gt;</code></strong>, <strong><code class="highlighter-rouge">&lt;section&gt;</code></strong> and <strong><code class="highlighter-rouge">&lt;footer&gt;</code></strong> to your page. </li>
+  <li>Go to terminal and type ‘<code class="highlighter-rouge">**cd /desktop/jekyll-project**</code><em>’</em> and hit enter. This should navigate you to the folder. </li>
+  <li>Initiate by running <strong><code class="highlighter-rouge">jekyll serve</code> or <code class="highlighter-rouge">jekyll s</code></strong> and hit enter.</li>
+  <li>In atom, create a new folder called <code class="highlighter-rouge">**_layouts**</code> </li>
+  <li>Inside that folder, create a new file called <code class="highlighter-rouge">**default.html**</code> </li>
+  <li>Move everything that you want on every page into the default.html layout file and keep only the sections that are unique to the homepage inside the index.html </li>
+  <li>In the default layout in the space where you want the content from each indivdual page to go, add a &lt;p&gt;<em>The following is an excerpt from a fantastic article by <a href="https://davidwalsh.name/introduction-static-site-generators" target="_blank">David Walsh</a></em>&lt;/p&gt;</li>
+</ol>
+
+<h2 id="how-dynamic-sites-work">How dynamic sites work</h2>
+
+<p>Try to imagine for a second that the only way for people to know what’s happening in the world is to go to the nearby news kiosk and ask to read the latest news. Yes, I know it’s silly but it will all make sense in a bit, please bear with me.</p>
+
+<p>The attendant has no way to know what the latest news are, so he passes the request on to a back room full of telephone operators — picture a big telephone switchboard room in the 1950s. When an operator becomes available, they will take the request and phone a long list of news agencies, ask for the latest news and then write the results as bullet points on a piece of paper.</p>
+
+<p>The operator will then pass his rough notes on to a scribbler who will write the final copy to a nice sheet of paper, arrange them in a certain layout and add a few bits and pieces such as the kiosk branding and contact information. Finally, the attendant takes the finished paper and serves it to the happy customer. The entire process will then be repeated for every person that arrives at the kiosk.</p>
+
+<p>That is essentially how a dynamic website works. When a visitor gets to a website (the kiosk) expecting the latest content (the news), a server-side script (the operators) will query one or multiple databases (news agencies) to get the content, pass the results to a templating engine (the scribble) who will format and arrange everything properly and generate an HTML file (the finished newspaper) for the user to consume.</p>
+
+<h2 id="how-static-sites-work">How static sites work</h2>
+
+<p>The proposition of a static site is to shift the heavy load from the moment visitors request the content to the moment content actually changes. Going back to our news kiosk metaphor, think of a scenario where it’s the news agencies who call the kiosk whenever something newsworthy happens.</p>
+
+<p>The kiosk operators and scribbles will then compile, format and style the stories and produce a finished newspaper right away, even though nobody ordered one yet. They will print out a huge number of copies (infinite, actually) and pile them up by the store front.</p>
+
+<p>When customers arrive, there’s no need to wait for an operator to become available, place the phone call, pass the results to the scribble and wait for the final product. The newspaper is already there, waiting in a pile, so the customer can be served instantly.</p>
+
+<p>And that is how static site generators work. They take the content, typically stored in flat files rather than databases, apply it against layouts or templates and generate a structure of purely static HTML files that are ready to be delivered to the users.</p>
+
+<h2 id="advantages-of-static-site-generators">Advantages of static site generators</h2>
+
+<h3 id="1-speed">1) Speed</h3>
+
+<p>Perhaps the most immediately noticeable characteristic of a static site is how fast it is. As mentioned above, there are no database queries to run, no templating and no processing whatsoever on every request.</p>
+
+<p>Web servers are really good at delivering static pages quickly, and the entire site consists of static HTML files that are sitting on the server, waiting to be served, so a request is served back to the user pretty much instantly.</p>
+
+<h3 id="2-version-control-for-content">2) Version control for content</h3>
+
+<p>You can’t even imagine working on a project without version control anymore, can you? Having a repository where people can collaboratively work on files, control exactly who does what and rollback changes when something goes wrong is essential in any software project, no matter how small.</p>
+
+<p>But what about the content? That’s the keystone of any site and yet it usually sits in a database somewhere else, completely separated from the codebase and its version control system. In a static site, the content is typically stored in flat files and treated as any other component of the codebase. In a blog, for example, that means being able to have the actual posts stored in a GitHub repository and allowing your readers to file an issue when something is wrong or to add a correction with a pull request — how cool is that?</p>
+
+<h3 id="3-security">3) Security</h3>
+
+<p>Platforms like WordPress are used by millions of people around the world, meaning they’re common targets for hackers and malicious attacks — no way around it. Wherever there’s user input/authentication or multiple processes running code on every request, there’s a potential security hole to exploit. To be on top of the situation, site administrators need to keep patching their systems with security updates, constantly playing cat and mouse with attackers, a routine that may be overlooked by less experienced users.</p>
+
+<p>Static sites keep it simple, since there’s not much to mess up when there’s only a web server serving plain HTML pages.</p>
+
+<h3 id="4-less-hassle-with-the-server">4) Less hassle with the server</h3>
+
+<p>Installing and maintaining the infrastructure required to run a dynamic site can be quite challenging, especially when multiple servers are involved or when something needs to be migrated. There’s packages, libraries, modules and frameworks with different versions and dependencies, there’s different web servers and database engines in different operating systems.</p>
+
+<p>Sure, a static site generator is a software package with its dependencies as well, but that’s only relevant at build time, when the site is generated. Ultimately, the end result is a collection of HTML files that can be served anywhere, scaled and migrated as needed regardless of the server-side technologies. As for the site generation process, that can be done from an environment that you control locally and not necessarily on the web server that will run the site — heck, you can build an entire site on your laptop and push the result to the web when it’s done.</p>
+
+<h3 id="5-traffic-surges">5) Traffic surges</h3>
+
+<p>Unexpected traffic peaks on a website can be a problem, especially when it relies intensively on database calls or heavy processing. Introducing caching layers such as Varnish or Memcached surely helps, but that ends up introducing more possible points of failure in the system.</p>
+
+<p>A static site is generally better prepared for those situations, as serving static HTML pages consumes a very small amount of server resources.</p>
+
+<h2 id="disadvantages-of-static-and-potential-solutions">Disadvantages of static (and potential solutions)</h2>
+
+<h3 id="1-no-real-time-content">1) No real-time content</h3>
+
+<p>With a static site you lose the ability to have real-time data, such as indication about which stories have been trending for the past hour, or content that dynamically changes for each visitor, like a “recommended articles for you” kind of thing. Static is static and will be the same for everyone.</p>
+
+<p>There’s not really a solution for this, I’m afraid. It’s the ultimate price to pay for using a static site, so it’s important that you ask yourself the question “how real-time does my site need to be?” — if its concept is based around delivering real-time information then perhaps a static site isn’t the right choice.</p>
+
+<p>A dangerous solution: There’s an easy exit for whenever you’re faced with the challenge of dynamically updating content on a static site: “I can do it with JavaScript”. Doing processing on the client-side and appending the results to the page after it’s been served can be the right approach for some cases, but must not be seen as the magic solution that turns your static site into a full dynamic one. It can prevent some users from seeing the injected content, hurt your SEO and introduce other problems, potentially taking away the ease of mind and sense of control that comes with using a static site.</p>
+
+<h3 id="2-no-user-input">2) No user input</h3>
+
+<p>Adding user generated content to a static site is a bit of a challenge. Take a commenting system for a blog, for example — how do you process user comments and append them to a post using just plain HTML pages? You don’t.</p>
+
+<h4 id="solution">Solution</h4>
+
+<p>You can’t get around this limitation per se and start processing data in your static pages, but you can find alternative solutions for individual cases. If you need to create a contact form, there are a lot of third-party services that will handle POST requests and email you the data, or export it to a format of your choice.</p>
+
+<p>A commenting system is a slightly different animal though, since it involves not only processing user data but also appending it to a certain page. Platforms like Disqus are often used as a workaround for this and they do the job, but I’m personally not a big fan.</p>
+
+<p>First of all, there’s what we discussed in point 1 — Disqus will append the comments to the page with JavaScript after it’s been served, so technically the comments don’t exist on your site until the JavaScript kicks in. Secondly, with this approach you contradict the premise of keeping the content together and versioned within a repository.</p>
+
+<p>I’ve written about taking a different approach at a commenting system for Jekyll, which basically uses a server-side handler to process comments, add them to the repository and push to GitHub, keeping comments together with the rest of the site.</p>
+
+<h3 id="3-no-admin-ui">3) No admin UI</h3>
+
+<p>It’s incredibly easy to publish a blog post to WordPress or Medium. It can be done from anywhere, even from a phone, without having to install any additional software. That’s not really the case with a static site.</p>
+
+<p>Typically, posts are composed in a text editor and formatted with a language like Markdown or Textile. To publish them, you’d need to regenerate the site (most engines have a watchfunctionality to detect file changes and regenerate the site automatically) and deploy the files to a server. It’s a bit hard to do all that on a phone sitting on the beach, isn’t it?</p>
+
+<h4 id="solution-1">Solution</h4>
+
+<p>New options like CloudCannon, Forestry, Netlify and Prose all aim to solve this problem</p>
+<p>tag. </p>
+<ol>
+  <li>At the top of the index.html file add your front matter (the two sets of <strong><code class="highlighter-rouge">---</code></strong>  and set<strong> <code class="highlighter-rouge">layout: default</code></strong></li>
+  <li>View your page at the server address <a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a></li>
+  <li>CELEBRATE!</li>
+</ol>
+
+<h3 id="step-1---create-a-new-website--run-jekyll">Step 1 - Create a new website &amp; run jekyll</h3>
+
+<p>Create a folder for the site you would like to install Jekyll in (or note down the location of the existing folder). Using the command line, we’re going to ‘run’ jekyll to ‘build and serve’ the site. It’s ok if you don’t fully understand what that means yet. Open up the terminal again and write the following command:</p>
+
+<p><code class="highlighter-rouge">$ cd path/to/site/files</code></p>
+
+<p><code class="highlighter-rouge">$ jekyll serve</code></p>
+
+<p>For example if your site is in desktop/websites/coffee then you would write <code class="highlighter-rouge">cd desktop/websites/coffee</code>.</p>
+
+<p>Try to make sure that your website folder name is all lowercase and has no spaces (dashes-are-fine). </p>
+
+<p>You’ll know that it has worked because if you go to <a href="http://localhost:4000/" target="_blank">http://localhost:4000</a> you should see your website. Jekyll serve builds the static site to the _site directory within the same folder and starts a web server locally.</p>
+
+<h3 id="step-2---jekyll-layouts">Step 2 - Jekyll Layouts</h3>
+
+<p>Repeating content is the biggest hassle of a purely static site. Having to makes changes to multiple html files every time you make a change to the header, footer, or head section of the html is a massive pain. Jekyll solves this issue with layouts.</p>
+
+<p><img src="/uploads/jekyll-file.png" alt="" width="736" height="800" /></p>
+
+<p>A layout is an HTML file in the <code class="highlighter-rouge">_layouts</code> folder with placeholders for content. We’re going to split up your layout into two parts – the repeatable layout that will stay the same on each page, and the content that changes for each page.</p>
+
+<p>First take your index.html file and copy the entire contents into a new file called default.html. Keeping the head, header, footer and anything else that stays exactly the same across every page and replace the main content with `&lt;p&gt;<em>The following is an excerpt from a fantastic article by <a href="https://davidwalsh.name/introduction-static-site-generators" target="_blank">David Walsh</a></em>&lt;/p&gt;</p>
+
+<h2 id="how-dynamic-sites-work">How dynamic sites work</h2>
+
+<p>Try to imagine for a second that the only way for people to know what’s happening in the world is to go to the nearby news kiosk and ask to read the latest news. Yes, I know it’s silly but it will all make sense in a bit, please bear with me.</p>
+
+<p>The attendant has no way to know what the latest news are, so he passes the request on to a back room full of telephone operators — picture a big telephone switchboard room in the 1950s. When an operator becomes available, they will take the request and phone a long list of news agencies, ask for the latest news and then write the results as bullet points on a piece of paper.</p>
+
+<p>The operator will then pass his rough notes on to a scribbler who will write the final copy to a nice sheet of paper, arrange them in a certain layout and add a few bits and pieces such as the kiosk branding and contact information. Finally, the attendant takes the finished paper and serves it to the happy customer. The entire process will then be repeated for every person that arrives at the kiosk.</p>
+
+<p>That is essentially how a dynamic website works. When a visitor gets to a website (the kiosk) expecting the latest content (the news), a server-side script (the operators) will query one or multiple databases (news agencies) to get the content, pass the results to a templating engine (the scribble) who will format and arrange everything properly and generate an HTML file (the finished newspaper) for the user to consume.</p>
+
+<h2 id="how-static-sites-work">How static sites work</h2>
+
+<p>The proposition of a static site is to shift the heavy load from the moment visitors request the content to the moment content actually changes. Going back to our news kiosk metaphor, think of a scenario where it’s the news agencies who call the kiosk whenever something newsworthy happens.</p>
+
+<p>The kiosk operators and scribbles will then compile, format and style the stories and produce a finished newspaper right away, even though nobody ordered one yet. They will print out a huge number of copies (infinite, actually) and pile them up by the store front.</p>
+
+<p>When customers arrive, there’s no need to wait for an operator to become available, place the phone call, pass the results to the scribble and wait for the final product. The newspaper is already there, waiting in a pile, so the customer can be served instantly.</p>
+
+<p>And that is how static site generators work. They take the content, typically stored in flat files rather than databases, apply it against layouts or templates and generate a structure of purely static HTML files that are ready to be delivered to the users.</p>
+
+<h2 id="advantages-of-static-site-generators">Advantages of static site generators</h2>
+
+<h3 id="1-speed">1) Speed</h3>
+
+<p>Perhaps the most immediately noticeable characteristic of a static site is how fast it is. As mentioned above, there are no database queries to run, no templating and no processing whatsoever on every request.</p>
+
+<p>Web servers are really good at delivering static pages quickly, and the entire site consists of static HTML files that are sitting on the server, waiting to be served, so a request is served back to the user pretty much instantly.</p>
+
+<h3 id="2-version-control-for-content">2) Version control for content</h3>
+
+<p>You can’t even imagine working on a project without version control anymore, can you? Having a repository where people can collaboratively work on files, control exactly who does what and rollback changes when something goes wrong is essential in any software project, no matter how small.</p>
+
+<p>But what about the content? That’s the keystone of any site and yet it usually sits in a database somewhere else, completely separated from the codebase and its version control system. In a static site, the content is typically stored in flat files and treated as any other component of the codebase. In a blog, for example, that means being able to have the actual posts stored in a GitHub repository and allowing your readers to file an issue when something is wrong or to add a correction with a pull request — how cool is that?</p>
+
+<h3 id="3-security">3) Security</h3>
+
+<p>Platforms like WordPress are used by millions of people around the world, meaning they’re common targets for hackers and malicious attacks — no way around it. Wherever there’s user input/authentication or multiple processes running code on every request, there’s a potential security hole to exploit. To be on top of the situation, site administrators need to keep patching their systems with security updates, constantly playing cat and mouse with attackers, a routine that may be overlooked by less experienced users.</p>
+
+<p>Static sites keep it simple, since there’s not much to mess up when there’s only a web server serving plain HTML pages.</p>
+
+<h3 id="4-less-hassle-with-the-server">4) Less hassle with the server</h3>
+
+<p>Installing and maintaining the infrastructure required to run a dynamic site can be quite challenging, especially when multiple servers are involved or when something needs to be migrated. There’s packages, libraries, modules and frameworks with different versions and dependencies, there’s different web servers and database engines in different operating systems.</p>
+
+<p>Sure, a static site generator is a software package with its dependencies as well, but that’s only relevant at build time, when the site is generated. Ultimately, the end result is a collection of HTML files that can be served anywhere, scaled and migrated as needed regardless of the server-side technologies. As for the site generation process, that can be done from an environment that you control locally and not necessarily on the web server that will run the site — heck, you can build an entire site on your laptop and push the result to the web when it’s done.</p>
+
+<h3 id="5-traffic-surges">5) Traffic surges</h3>
+
+<p>Unexpected traffic peaks on a website can be a problem, especially when it relies intensively on database calls or heavy processing. Introducing caching layers such as Varnish or Memcached surely helps, but that ends up introducing more possible points of failure in the system.</p>
+
+<p>A static site is generally better prepared for those situations, as serving static HTML pages consumes a very small amount of server resources.</p>
+
+<h2 id="disadvantages-of-static-and-potential-solutions">Disadvantages of static (and potential solutions)</h2>
+
+<h3 id="1-no-real-time-content">1) No real-time content</h3>
+
+<p>With a static site you lose the ability to have real-time data, such as indication about which stories have been trending for the past hour, or content that dynamically changes for each visitor, like a “recommended articles for you” kind of thing. Static is static and will be the same for everyone.</p>
+
+<p>There’s not really a solution for this, I’m afraid. It’s the ultimate price to pay for using a static site, so it’s important that you ask yourself the question “how real-time does my site need to be?” — if its concept is based around delivering real-time information then perhaps a static site isn’t the right choice.</p>
+
+<p>A dangerous solution: There’s an easy exit for whenever you’re faced with the challenge of dynamically updating content on a static site: “I can do it with JavaScript”. Doing processing on the client-side and appending the results to the page after it’s been served can be the right approach for some cases, but must not be seen as the magic solution that turns your static site into a full dynamic one. It can prevent some users from seeing the injected content, hurt your SEO and introduce other problems, potentially taking away the ease of mind and sense of control that comes with using a static site.</p>
+
+<h3 id="2-no-user-input">2) No user input</h3>
+
+<p>Adding user generated content to a static site is a bit of a challenge. Take a commenting system for a blog, for example — how do you process user comments and append them to a post using just plain HTML pages? You don’t.</p>
+
+<h4 id="solution">Solution</h4>
+
+<p>You can’t get around this limitation per se and start processing data in your static pages, but you can find alternative solutions for individual cases. If you need to create a contact form, there are a lot of third-party services that will handle POST requests and email you the data, or export it to a format of your choice.</p>
+
+<p>A commenting system is a slightly different animal though, since it involves not only processing user data but also appending it to a certain page. Platforms like Disqus are often used as a workaround for this and they do the job, but I’m personally not a big fan.</p>
+
+<p>First of all, there’s what we discussed in point 1 — Disqus will append the comments to the page with JavaScript after it’s been served, so technically the comments don’t exist on your site until the JavaScript kicks in. Secondly, with this approach you contradict the premise of keeping the content together and versioned within a repository.</p>
+
+<p>I’ve written about taking a different approach at a commenting system for Jekyll, which basically uses a server-side handler to process comments, add them to the repository and push to GitHub, keeping comments together with the rest of the site.</p>
+
+<h3 id="3-no-admin-ui">3) No admin UI</h3>
+
+<p>It’s incredibly easy to publish a blog post to WordPress or Medium. It can be done from anywhere, even from a phone, without having to install any additional software. That’s not really the case with a static site.</p>
+
+<p>Typically, posts are composed in a text editor and formatted with a language like Markdown or Textile. To publish them, you’d need to regenerate the site (most engines have a watchfunctionality to detect file changes and regenerate the site automatically) and deploy the files to a server. It’s a bit hard to do all that on a phone sitting on the beach, isn’t it?</p>
+
+<h4 id="solution-1">Solution</h4>
+
+<p>New options like CloudCannon, Forestry, Netlify and Prose all aim to solve this problem</p>
+<p>` tag.</p>
+
+<p>`&lt;p&gt;<em>The following is an excerpt from a fantastic article by <a href="https://davidwalsh.name/introduction-static-site-generators" target="_blank">David Walsh</a></em>&lt;/p&gt;</p>
+
+<h2 id="how-dynamic-sites-work">How dynamic sites work</h2>
+
+<p>Try to imagine for a second that the only way for people to know what’s happening in the world is to go to the nearby news kiosk and ask to read the latest news. Yes, I know it’s silly but it will all make sense in a bit, please bear with me.</p>
+
+<p>The attendant has no way to know what the latest news are, so he passes the request on to a back room full of telephone operators — picture a big telephone switchboard room in the 1950s. When an operator becomes available, they will take the request and phone a long list of news agencies, ask for the latest news and then write the results as bullet points on a piece of paper.</p>
+
+<p>The operator will then pass his rough notes on to a scribbler who will write the final copy to a nice sheet of paper, arrange them in a certain layout and add a few bits and pieces such as the kiosk branding and contact information. Finally, the attendant takes the finished paper and serves it to the happy customer. The entire process will then be repeated for every person that arrives at the kiosk.</p>
+
+<p>That is essentially how a dynamic website works. When a visitor gets to a website (the kiosk) expecting the latest content (the news), a server-side script (the operators) will query one or multiple databases (news agencies) to get the content, pass the results to a templating engine (the scribble) who will format and arrange everything properly and generate an HTML file (the finished newspaper) for the user to consume.</p>
+
+<h2 id="how-static-sites-work">How static sites work</h2>
+
+<p>The proposition of a static site is to shift the heavy load from the moment visitors request the content to the moment content actually changes. Going back to our news kiosk metaphor, think of a scenario where it’s the news agencies who call the kiosk whenever something newsworthy happens.</p>
+
+<p>The kiosk operators and scribbles will then compile, format and style the stories and produce a finished newspaper right away, even though nobody ordered one yet. They will print out a huge number of copies (infinite, actually) and pile them up by the store front.</p>
+
+<p>When customers arrive, there’s no need to wait for an operator to become available, place the phone call, pass the results to the scribble and wait for the final product. The newspaper is already there, waiting in a pile, so the customer can be served instantly.</p>
+
+<p>And that is how static site generators work. They take the content, typically stored in flat files rather than databases, apply it against layouts or templates and generate a structure of purely static HTML files that are ready to be delivered to the users.</p>
+
+<h2 id="advantages-of-static-site-generators">Advantages of static site generators</h2>
+
+<h3 id="1-speed">1) Speed</h3>
+
+<p>Perhaps the most immediately noticeable characteristic of a static site is how fast it is. As mentioned above, there are no database queries to run, no templating and no processing whatsoever on every request.</p>
+
+<p>Web servers are really good at delivering static pages quickly, and the entire site consists of static HTML files that are sitting on the server, waiting to be served, so a request is served back to the user pretty much instantly.</p>
+
+<h3 id="2-version-control-for-content">2) Version control for content</h3>
+
+<p>You can’t even imagine working on a project without version control anymore, can you? Having a repository where people can collaboratively work on files, control exactly who does what and rollback changes when something goes wrong is essential in any software project, no matter how small.</p>
+
+<p>But what about the content? That’s the keystone of any site and yet it usually sits in a database somewhere else, completely separated from the codebase and its version control system. In a static site, the content is typically stored in flat files and treated as any other component of the codebase. In a blog, for example, that means being able to have the actual posts stored in a GitHub repository and allowing your readers to file an issue when something is wrong or to add a correction with a pull request — how cool is that?</p>
+
+<h3 id="3-security">3) Security</h3>
+
+<p>Platforms like WordPress are used by millions of people around the world, meaning they’re common targets for hackers and malicious attacks — no way around it. Wherever there’s user input/authentication or multiple processes running code on every request, there’s a potential security hole to exploit. To be on top of the situation, site administrators need to keep patching their systems with security updates, constantly playing cat and mouse with attackers, a routine that may be overlooked by less experienced users.</p>
+
+<p>Static sites keep it simple, since there’s not much to mess up when there’s only a web server serving plain HTML pages.</p>
+
+<h3 id="4-less-hassle-with-the-server">4) Less hassle with the server</h3>
+
+<p>Installing and maintaining the infrastructure required to run a dynamic site can be quite challenging, especially when multiple servers are involved or when something needs to be migrated. There’s packages, libraries, modules and frameworks with different versions and dependencies, there’s different web servers and database engines in different operating systems.</p>
+
+<p>Sure, a static site generator is a software package with its dependencies as well, but that’s only relevant at build time, when the site is generated. Ultimately, the end result is a collection of HTML files that can be served anywhere, scaled and migrated as needed regardless of the server-side technologies. As for the site generation process, that can be done from an environment that you control locally and not necessarily on the web server that will run the site — heck, you can build an entire site on your laptop and push the result to the web when it’s done.</p>
+
+<h3 id="5-traffic-surges">5) Traffic surges</h3>
+
+<p>Unexpected traffic peaks on a website can be a problem, especially when it relies intensively on database calls or heavy processing. Introducing caching layers such as Varnish or Memcached surely helps, but that ends up introducing more possible points of failure in the system.</p>
+
+<p>A static site is generally better prepared for those situations, as serving static HTML pages consumes a very small amount of server resources.</p>
+
+<h2 id="disadvantages-of-static-and-potential-solutions">Disadvantages of static (and potential solutions)</h2>
+
+<h3 id="1-no-real-time-content">1) No real-time content</h3>
+
+<p>With a static site you lose the ability to have real-time data, such as indication about which stories have been trending for the past hour, or content that dynamically changes for each visitor, like a “recommended articles for you” kind of thing. Static is static and will be the same for everyone.</p>
+
+<p>There’s not really a solution for this, I’m afraid. It’s the ultimate price to pay for using a static site, so it’s important that you ask yourself the question “how real-time does my site need to be?” — if its concept is based around delivering real-time information then perhaps a static site isn’t the right choice.</p>
+
+<p>A dangerous solution: There’s an easy exit for whenever you’re faced with the challenge of dynamically updating content on a static site: “I can do it with JavaScript”. Doing processing on the client-side and appending the results to the page after it’s been served can be the right approach for some cases, but must not be seen as the magic solution that turns your static site into a full dynamic one. It can prevent some users from seeing the injected content, hurt your SEO and introduce other problems, potentially taking away the ease of mind and sense of control that comes with using a static site.</p>
+
+<h3 id="2-no-user-input">2) No user input</h3>
+
+<p>Adding user generated content to a static site is a bit of a challenge. Take a commenting system for a blog, for example — how do you process user comments and append them to a post using just plain HTML pages? You don’t.</p>
+
+<h4 id="solution">Solution</h4>
+
+<p>You can’t get around this limitation per se and start processing data in your static pages, but you can find alternative solutions for individual cases. If you need to create a contact form, there are a lot of third-party services that will handle POST requests and email you the data, or export it to a format of your choice.</p>
+
+<p>A commenting system is a slightly different animal though, since it involves not only processing user data but also appending it to a certain page. Platforms like Disqus are often used as a workaround for this and they do the job, but I’m personally not a big fan.</p>
+
+<p>First of all, there’s what we discussed in point 1 — Disqus will append the comments to the page with JavaScript after it’s been served, so technically the comments don’t exist on your site until the JavaScript kicks in. Secondly, with this approach you contradict the premise of keeping the content together and versioned within a repository.</p>
+
+<p>I’ve written about taking a different approach at a commenting system for Jekyll, which basically uses a server-side handler to process comments, add them to the repository and push to GitHub, keeping comments together with the rest of the site.</p>
+
+<h3 id="3-no-admin-ui">3) No admin UI</h3>
+
+<p>It’s incredibly easy to publish a blog post to WordPress or Medium. It can be done from anywhere, even from a phone, without having to install any additional software. That’s not really the case with a static site.</p>
+
+<p>Typically, posts are composed in a text editor and formatted with a language like Markdown or Textile. To publish them, you’d need to regenerate the site (most engines have a watchfunctionality to detect file changes and regenerate the site automatically) and deploy the files to a server. It’s a bit hard to do all that on a phone sitting on the beach, isn’t it?</p>
+
+<h4 id="solution-1">Solution</h4>
+
+<p>New options like CloudCannon, Forestry, Netlify and Prose all aim to solve this problem</p>
+<p>` is a liquid tag which is part of Jekyll’s templating language.</p>
+
+<p>To set <code class="highlighter-rouge">index.html</code> to use the default layout, we use front matter, a snippet of YAML at the top of the file between lines of three dashes.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: default
+---
+</code></pre>
+</div>
+
+<p><img src="/uploads/jekyll-layout.png" alt="" width="800" height="416" /></p>
+
+<p>When you save all of your files, you should be able to go back to <a href="http://localhost:4000/" target="_blank">http://localhost:4000</a> and your website should still look exactly the same.</p>
+
+<p>Now repeat this for all your other pages, removing the head, header, footer leaving just the content and add the YAML at the top to declare the layout. Check the live site and make sure all your pages are working as normal. Now if you want to edit the head, header or footer you only have to edit one file!</p>
+
+<h2 id="using-page-variables">Using Page Variables</h2>
+
+<div class="cms-embed" data-cms-embed="PGlmcmFtZSBmcmFtZWJvcmRlcj0iMCIgYWxsb3dmdWxsc2NyZWVuIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjQ1MHB4IiBzcmM9Ii8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL0hQWnduZkc3aTcwIj48L2lmcmFtZT4="><iframe frameborder="0" allowfullscreen="" width="100%" height="450px" src="//www.youtube.com/embed/HPZwnfG7i70"></iframe></div>
+
+<p>We can create lots of variables in the front matter instead of the html. Let’s make the title dynamic so that it changes for each page along with the page content.</p>
+
+<p>In the frontmatter of each page add a title, the index.html will now look like:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: default
+title: A beautiful website created by me.
+---
+</code></pre>
+</div>
+
+<p>In the head section of the html in the default.html file we can now replace the title content with liquid variables:</p>
+
+<p><code class="highlighter-rouge">&lt;title&gt; Jekyll Basics &lt;/title&gt;</code></p>
+
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+		<!-- this enables codepens to be embedded -->
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</body>
+</html>

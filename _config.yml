@@ -1,0 +1,105 @@
+# ----
+# Site
+
+title: IOC Pre-Coursework
+url: "http://web-dev.instituteofcode.com"
+baseurl:
+google_analytics_key:
+show_full_navigation: true
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Pre-Coursework for Institute of Code's 10 Day Web Development Intensive 
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: IOC Pre-Coursework
+  links:
+    - 
+
+# -----
+# Build
+
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+collections:
+  docs:
+    title: Pre-Coursework
+    organise: docs
+    permalink: /:path/
+    output: true
+  docs-2:
+    title: Coursework
+    organise: docs-2
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: layout-test
+      _options:
+        content:
+            width: 800
+            height: 2000
+            format: true
+            bold: true
+            code: true
+            styles: /_sass/_content-typography.scss
+            italic: true
+            removeformat: true 
+            link: true
+            undo: true
+            redo: true
+            underline: true
+            strike: true
+            subscript: true 
+            superscript: true
+            blockquote: true	 
+            horizontalrule: true	 
+            numberedlist: true	 
+            bulletedlist: true	 
+            outdent: true
+            indent: true
+            image: true	 
+            embed: true	 
+            table: true 
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major
