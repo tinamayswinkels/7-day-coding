@@ -5,9 +5,9 @@ order: 3
 published: true
 ---
 
-Today we're going to take the HTML elements that we coded yesterday in codepen and style them\!&nbsp;
+Today we're going to take the HTML elements that we coded yesterday in codepen and style them\!&nbsp;<br><br>*This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one\!&nbsp;*
 
-{% include youtube.html id="vKkds7j6i7Y" %}<br><br>*This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons.&nbsp;*
+{% include youtube.html id="vKkds7j6i7Y" %}<br>&nbsp;
 
 As elements are added to a web page, they may be styled using CSS. A selector designates exactly which element or elements within our HTML to target and apply styles to (such as color, size, and position). The most basic form of selectors target the type of element, such as&nbsp;`<h1>`or&nbsp;`<p>`.
 
