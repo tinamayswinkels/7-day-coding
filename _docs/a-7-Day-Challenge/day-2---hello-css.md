@@ -38,6 +38,15 @@ Each property has particular units of values that it will accept. For example, t
 
 It is a common practice to indent property and value pairs within the curly brackets. As with HTML, these indentations help keep our code organized and legible.
 
+## CSS Cheat Sheet
+
+| Example | Notes |
+| `background-color: red; `<br><br>`background-color: #FCF7DE; `<br><br>`background-color: rgb(60,60,65); ` | You can use simple color names, hex codes or rgb values&nbsp; |
+| `color: #FF9AA2;` | As with background colors, you can use names, hex codes or rgb values.&nbsp; |
+| `padding: 2.5rem;`<br><br>`padding: 5%;`<br><br>`margin: 10px;`<br><br>`margin-bottom: 1rem;` | Padding and margin can be specified in lots of different units, most commonly pixels, rems, and %.&nbsp;<br><br>You can apply them on all sides by just using the padding or margin property or target specific sides with the properties like 'padding-left' or 'margin-bottom'&nbsp; |
+| `font-size: 16px;`<br><br>`font-size: 2rem;` | Font sizes are commonly set it rems or pixels.&nbsp; |
+| `text-align: left;`<br><br>`text-align: center;`<br><br>`text-align: right;` | Text alignment can be applied to individual elements or the whole page (the body) |
+
 ### Universal Selector & CSS Reset
 
 This selector selects everything on the page, and we use it to override the default browser styles.&nbsp;
@@ -65,6 +74,10 @@ This for example would select all the h1, h2 and h3 elements and make them red.&
 
 ## Activity Styling with CSS
 
+This is what we'll be creating. If you get stuck, you can have a look at [my codepen here](https://codepen.io/instituteofcode/pen/gJOdgL?editors=1100){: target="_blank"}.&nbsp;
+
+![](/uploads/screen-shot-2020-01-11-at-8-56-43-am.png){: width="800" height="514"}
+
 1. Create 6 html element (for example, h1 to h5 and then a paragraph)
 2. Use the universal selector and CSS reset to reset your browser styles&nbsp;<br>&nbsp;
 
@@ -74,7 +87,7 @@ This for example would select all the h1, h2 and h3 elements and make them red.&
      padding: 0;
    }
    ~~~
-3. Give the body element some padding and a background color<br>&nbsp;
+3. Give the body element some padding and a background color
 
    ~~~
    body {
@@ -82,7 +95,7 @@ This for example would select all the h1, h2 and h3 elements and make them red.&
      background-color: #FCF7DE;
    }
    ~~~
-4. Let's use a multiple selector to select all the headings and paragraphs and give them the same padding and margin.<br>&nbsp;
+4. Let's use a multiple selector to select all the headings and paragraphs and give them the same padding and margin.
 
    ~~~css
    h1, h2, h3, h4, h5, p {
@@ -90,14 +103,44 @@ This for example would select all the h1, h2 and h3 elements and make them red.&
      margin: 0.5rem;
    }
    ~~~
-
-   &nbsp;
-
-5. ~~~
-   Now let's style each individual element one by one
+5. Now let's style each element one by one
 
    ~~~
+   h1 {
+     color: #ff6874;
+     background-color: #FF9AA2;
+     font-size: 2.5rem;
+   }
 
-![](/uploads/screen-shot-2020-01-11-at-8-56-43-am.png){: width="800" height="514"}
+   ​​​​​​​h2 {
+     color: #ff877f;
+     background-color:#FFB7B2;
+     font-size: 2.2rem;
+   }
+   ~~~
+
+> **Hint: Colors**
+>
+>
+> You are welcome to use your own colors for this challenge but if you want it to look the same as the example the color codes are:<br><br>H1 &nbsp; \#ff6874 & &nbsp;\#FF9AA2
+>
+>
+> H2 \#ff877f &nbsp;& \#FFB7B2
+>
+>
+> H3 \#ffbc8e & \#FFDAC1
+>
+>
+> H4 &nbsp; \#c1df90 & \#edf6df&nbsp;
+>
+>
+> H5 &nbsp; \#79d9b7 &nbsp;& \#c9f0e2
+>
+>
+> P \#8f9dd5 &nbsp;& \#C7CEEA
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
