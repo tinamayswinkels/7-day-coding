@@ -139,4 +139,4 @@ This is what we'll be creating. If you get stuck, you can have a look at [my cod
 >
 > P \#8f9dd5 &nbsp;& \#C7CEEA
 
-Printable CSS Cheat Sheet - Download here&nbsp;
+[Printable CSS Cheat Sheet - Download here&nbsp;](/CSS Cheat Sheet.png){: target="_blank"}
