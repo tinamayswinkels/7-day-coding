@@ -40,7 +40,7 @@ It is a common practice to indent property and value pairs within the curly brac
 
 ## CSS Cheat Sheet
 
-| Examples - `property: value; ` | Notes |
+| Examples | Notes |
 | `background-color: red; `<br><br>`background-color: #FCF7DE; `<br><br>`background-color: rgb(60,60,65); ` | You can use simple color names, hex codes or rgb values&nbsp; |
 | `color: #FF9AA2;` | As with background colors, you can use names, hex codes or rgb values.&nbsp; |
 | `padding: 2.5rem;`<br><br>`padding: 5%;`<br><br>`margin: 10px;`<br><br>`margin-bottom: 1rem;` | Padding and margin can be specified in lots of different units, most commonly pixels, rems, and %.&nbsp;<br><br>You can apply them on all sides by just using the padding or margin property or target specific sides with the properties like 'padding-left' or 'margin-bottom'&nbsp; |
@@ -112,7 +112,7 @@ This is what we'll be creating. If you get stuck, you can have a look at [my cod
      font-size: 2.5rem;
    }
 
-   ​​​​​​​h2 {
+   h2 {
      color: #ff877f;
      background-color:#FFB7B2;
      font-size: 2.2rem;
@@ -139,8 +139,4 @@ This is what we'll be creating. If you get stuck, you can have a look at [my cod
 >
 > P \#8f9dd5 &nbsp;& \#C7CEEA
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+Printable CSS Cheat Sheet - Download here&nbsp;
