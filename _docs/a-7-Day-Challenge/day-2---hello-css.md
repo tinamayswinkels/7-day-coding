@@ -7,7 +7,7 @@ published: true
 
 Today we're going to take the HTML elements that we coded yesterday in codepen and style them\!&nbsp;<br><br>*This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one\!&nbsp;*
 
-{% include youtube.html id="vKkds7j6i7Y" %}<br>&nbsp;
+{% include youtube.html id="vKkds7j6i7Y" %}
 
 As elements are added to a web page, they may be styled using CSS. A selector designates exactly which element or elements within our HTML to target and apply styles to (such as color, size, and position). The most basic form of selectors target the type of element, such as&nbsp;`<h1>`or&nbsp;`<p>`.
 
@@ -40,7 +40,7 @@ It is a common practice to indent property and value pairs within the curly brac
 
 ## CSS Cheat Sheet
 
-| Example | Notes |
+| Examples - `property: value; ` | Notes |
 | `background-color: red; `<br><br>`background-color: #FCF7DE; `<br><br>`background-color: rgb(60,60,65); ` | You can use simple color names, hex codes or rgb values&nbsp; |
 | `color: #FF9AA2;` | As with background colors, you can use names, hex codes or rgb values.&nbsp; |
 | `padding: 2.5rem;`<br><br>`padding: 5%;`<br><br>`margin: 10px;`<br><br>`margin-bottom: 1rem;` | Padding and margin can be specified in lots of different units, most commonly pixels, rems, and %.&nbsp;<br><br>You can apply them on all sides by just using the padding or margin property or target specific sides with the properties like 'padding-left' or 'margin-bottom'&nbsp; |
