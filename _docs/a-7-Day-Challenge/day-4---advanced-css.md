@@ -77,6 +77,8 @@ Then experiment with adding these classes to the html elements and seeing what t
 
 ## Activity 2 - Light & Dark Sections&nbsp;
 
+![](/uploads/screen-shot-2020-01-14-at-12-45-38-pm.png){: width="800" height="690"}
+
 1\. Start by setting up your html with two sections, each with a h2, paragraph and link. Add a class for each background, and one for each button.&nbsp;
 
 ~~~html
@@ -111,6 +113,59 @@ body {
 section {
   padding: 5%;
 }
+h2, p {
+  margin-bottom: 1rem;
+}
+~~~
+
+4\. Style your light and dark background classes&nbsp;
+
+~~~
+.bg-light {
+  background-color: rgb(230,230,230);
+}
+
+.bg-dark {
+  background-color: rgb(60,60,60);
+  color: white;
+}
+~~~
+
+5\. Style your buttons&nbsp;
+
+~~~
+.button {
+  color: inherit;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+}
+​​​​​
+~~~
+
+6\. Bonus: Add a hover effect to your buttons&nbsp;
+
+~~~css
+.button:hover {
+  color: orange;
+}
 ~~~
 
 <br>Here's a link to the [codepen](https://codepen.io/instituteofcode/pen/bJzKNo?editors=1100){: target="_blank"} finished example.
+
+**BONUS LESSON**
+
+Some of you have asked about how to style just a specific part of text within another element. This wasn't planned to be part of the 7 day challenge, but I've included a little how to below.&nbsp;
+
+To style just part of text element we need to use a new container element called a span.&nbsp;
+
+~~~html
+<h2> My name is <span class="featured-text> Tina May </span> </h2>
+~~~
+
+~~~css
+.featured-text {
+  color: red;
+}
+~~~
