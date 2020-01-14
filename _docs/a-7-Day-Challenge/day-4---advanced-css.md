@@ -2,7 +2,7 @@
 title:
 category: 7 Day Challenge
 order: 3
-published: false
+published: true
 ---
 
 Today we're going learn how to create structural html elements, and style individual and groups of elements with classes.&nbsp;
