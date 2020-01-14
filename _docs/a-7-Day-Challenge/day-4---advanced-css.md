@@ -63,7 +63,7 @@ CSS:&nbsp;
 
 Then experiment with adding these classes to the html elements and seeing what the effect is.&nbsp;
 
-~~~
+~~~html
 <h2 class="big-text bg-featured"> My name is Tina </h2>
 <h2 class="underline"> I'm the co-founder of IOC </h2>
 <h3> I was born in Australia </h3>
@@ -163,7 +163,7 @@ Some of you have asked about how to style just a specific part of text within an
 To style just part of text element we need to use a new container element called a span.&nbsp;
 
 ~~~html
-<h2> My name is <span class="featured-text> Tina May </span> </h2>
+<h2> My name is <span class="featured-text"> Tina May </span> </h2>
 ~~~
 
 ~~~css
