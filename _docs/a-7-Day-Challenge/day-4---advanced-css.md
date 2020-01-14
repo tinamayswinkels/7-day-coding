@@ -77,6 +77,8 @@ Then experiment with adding these classes to the html elements and seeing what t
 
 ## Activity 2 - Light & Dark Sections&nbsp;
 
+{% include youtube.html id="<a target="_blank" href="https://youtu.be/qA67cSTK-GY">qA67cSTK-GY</a>" %}
+
 ![](/uploads/screen-shot-2020-01-14-at-12-45-38-pm.png){: width="800" height="690"}
 
 1\. Start by setting up your html with two sections, each with a h2, paragraph and link. Add a class for each background, and one for each button.&nbsp;
