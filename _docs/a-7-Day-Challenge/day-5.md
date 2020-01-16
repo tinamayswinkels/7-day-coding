@@ -11,7 +11,7 @@ It's finally time to build a real splash page\! We've created 3 simple designs a
 
 ![](/uploads/simple.png){: width="800" height="447"}
 
-{% include youtube.html id="7iwZhF9z0q0" %}
+{% include youtube.html id="qOGl5G5TL4g" %}
 
 [View on Codepen&nbsp;](https://codepen.io/instituteofcode/pen/RwNYoOa)
 
@@ -19,7 +19,7 @@ It's finally time to build a real splash page\! We've created 3 simple designs a
 
 ![](/uploads/simple--3.png){: width="1600" height="895"}
 
-{% include youtube.html id="7iwZhF9z0q0" %}
+{% include youtube.html id="1EMgtGVmViE" %}
 
 [View on Codepen&nbsp;](https://codepen.io/instituteofcode/pen/mdyGRpM)
 
@@ -27,7 +27,7 @@ It's finally time to build a real splash page\! We've created 3 simple designs a
 
 ![](/uploads/simple-6.png){: width="451" height="894"}
 
-{% include youtube.html id="7iwZhF9z0q0" %}
+{% include youtube.html id="guM96j6XQjM" %}
 
 [View on Codepen&nbsp;](https://codepen.io/instituteofcode/pen/OJPozVB)
 
