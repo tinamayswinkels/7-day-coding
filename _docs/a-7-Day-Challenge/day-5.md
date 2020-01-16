@@ -1,7 +1,7 @@
 ---
-title: Day 5
+title: Day 6 - Building a splash page
 category: 7 Day Challenge
-order: 5
+order: 6
 published: true
 ---
 
