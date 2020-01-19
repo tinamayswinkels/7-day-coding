@@ -32,3 +32,13 @@ It's finally time to build a real splash page\! We've created 3 simple designs a
 [View on Codepen&nbsp;](https://codepen.io/instituteofcode/pen/OJPozVB)
 
 &nbsp;
+
+## BONUS: Splash Page 4
+
+In this one, we'll build it from scratch using Atom including setting up the HTML and linking the CSS. Then in tomorrow's video will upload it to the hosting & domain name\!&nbsp;
+
+![](/uploads/simple--2.png){: width="1159" height="2000"}
+
+{% include youtube.html id="guM96j6XQjM" %}
+
+[Download Code Files](/the-studio-template.zip)
