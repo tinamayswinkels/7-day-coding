@@ -39,6 +39,6 @@ In this one, we'll build it from scratch using Atom including setting up the HTM
 
 ![](/uploads/simple--2.png){: width="1159" height="2000"}
 
-{% include youtube.html id="guM96j6XQjM" %}
+{% include youtube.html id="ZbF6ttiq89c" %}
 
 [Download Code Files](/the-studio-template.zip)
