@@ -9,7 +9,7 @@ Today we're going learn how to create structural html elements, and style indivi
 
 {% include youtube.html id="RUEX9trmzUY" %}
 
-> Whoops, there is a typo at 15 minutes -- when you use an element selection ( like a ) and a class selector ( like .button ) it's the class selector styles that will apply\!&nbsp;
+> Whoops, there is a typo at 15 minutes – when you use an element selection ( like a ) and a class selector ( like .button ) it's the class selector styles that will apply\!&nbsp;
 
 ### Activity 1
 
@@ -41,8 +41,6 @@ p {
 ~~~
 
 3\. Create a 3 classes with unique styles in your css. Experiment with adding these classes to various the html elements and watch as they override the default styles for each element (these are examples but feel free to use your own).
-
-CSS:&nbsp;
 
 ~~~css
 
@@ -124,7 +122,7 @@ h2, p {
 
 4\. Style your light and dark background classes&nbsp;
 
-~~~
+~~~css
 .bg-light {
   background-color: rgb(230,230,230);
 }
@@ -137,7 +135,7 @@ h2, p {
 
 5\. Style your buttons&nbsp;
 
-~~~
+~~~css
 .button {
   color: inherit;
   text-decoration: none;
