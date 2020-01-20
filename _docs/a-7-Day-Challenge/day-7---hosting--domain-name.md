@@ -9,4 +9,6 @@ It's our last day of this challenge\! Crazy to look back and reflect on how much
 
 ## Uploading to Hosting & Domain Name
 
-![](/uploads/simple.png){: width="800" height="447"}{% include youtube.html id="fqYybDacRnU" %}
+![](/uploads/simple.png){: width="800" height="447"}
+
+{% include youtube.html id="fqYybDacRnU" %}
