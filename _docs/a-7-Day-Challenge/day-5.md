@@ -63,7 +63,7 @@ In this one, we'll build it from scratch using Atom including setting up the HTM
 **Embedding Responsive Youtube Videos&nbsp;**
 
 1. Copy the URL of the video you want to embed (not the embed code)
-2. Paste the URL into embedresponsively.com
+2. Paste the URL into [embedresponsively.com](http://embedresponsively.com/){: target="_blank"}
 3. Copy the outputted code into your HTML
 
 The advantage of this method over the standard copy + paste embed is that the video is responsive, you can put it in any container div or section and it will fill the width while maintaining it's aspect ratio (no black bars at the top or sides\!)
