@@ -9,6 +9,8 @@ Today we're going learn how to create structural html elements, and style indivi
 
 {% include youtube.html id="RUEX9trmzUY" %}
 
+> Whoops, there is a typo at 15 minutes -- when you use an element selection ( like a ) and a class selector ( like .button ) it's the class selector styles that will apply\!&nbsp;
+
 ### Activity 1
 
 P.S. Try not to copy and paste but rather to type yourself, as the muscle memory &nbsp;helps you to learn
