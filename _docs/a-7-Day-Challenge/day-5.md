@@ -41,6 +41,6 @@ In this one, we'll build it from scratch using Atom including setting up the HTM
 
 *&nbsp;Video uploading now, check back in one hour....*
 
-{% include youtube.html id="ZbF6ttiq89c" %}
+{% include youtube.html id="clVnM-_kMi4" %}
 
 [Download Code Files](/the-studio-template.zip)
