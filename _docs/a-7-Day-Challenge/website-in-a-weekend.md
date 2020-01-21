@@ -46,7 +46,7 @@ We believe whole heartedly in our so far have a 100% satisfaction from everyone 
 
 ## Our Hybrid Bootcamp in Bali
 
-Looking to take things to the next level? Our hybrid bootcamp (6 weeks part time online + 10 day intensive in Bali + lifetime support) might be exactly what you need.&nbsp;
+Looking to take things to the next level? Our [hybrid bootcamp](http://www.instituteofcode.com/courses/web-dev){: target="_blank"} (6 weeks part time online + 10 day intensive in Bali + lifetime support) might be exactly what you need.&nbsp;
 
 This program goes well beyond the basics and teaches you how to build a freelance career as a web developer (or land a job at an agency if that's more your thing).&nbsp;
 
