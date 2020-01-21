@@ -22,7 +22,7 @@ There are so many great coding resources out there, it's almost overwhelming\! H
 
 ## Our Website in a Weekend Online Course&nbsp;
 
-We've had so many questions about our online course, that we wanted to jump in and [answer them here](https://www.instituteofcode.com/courses/web-dev-101/)\!&nbsp;
+We've had so many questions about [our online course](https://www.instituteofcode.com/courses/web-dev-101/){: target="_blank"}, that we wanted to jump in and answer them here\!&nbsp;
 
 **1\. What does this cover that we haven't already learnt?&nbsp;**
 
@@ -32,7 +32,7 @@ It digs deeper into HTML & CSS, including more advanced styling, and making your
 
 If you enroll in the course now, you'll receive access to all future updates and tutorials at no additional cost.&nbsp;
 
-**3\. How much does Website in a Weekend cost?&nbsp;**<br><br>As soon as we release the additional tutorials mentioned above the price will be increasing to $450. It's currently $250, and we're giving all 7 day coding challenge participants a coupon '7DAYCODING' to receive $100 off for the next two weeks only.&nbsp;<br><br>If you decide to attend the bootcamp later, we'll credit the amount you spend on Website in a Weekend towards the bootcamp tuition.&nbsp;
+**3\. How much does Website in a Weekend cost?&nbsp;**<br><br>As soon as we release the additional tutorials mentioned above the price will be increasing to $450. It's currently $250, and we're giving all 7 day coding challenge participants a coupon '[7DAYCODING](https://ioc.podia.com/web-dev-101?coupon=7DAYCODING){: target="_blank"}' to receive $100 off for the next two weeks only.&nbsp;<br><br>If you decide to attend the bootcamp later, we'll credit the amount you spend on Website in a Weekend towards the bootcamp tuition.&nbsp;
 
 **4\. What kind of support is provided?&nbsp;**
 
