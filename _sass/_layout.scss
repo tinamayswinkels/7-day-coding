@@ -3,69 +3,69 @@ input::-ms-reveal {
 	display: none !important;
 }
 
-body {
-	height: auto;
-	overflow-x: hidden;
-	background-color: $body-background-color;
+// body {
+// 	height: auto;
+// 	overflow-x: hidden;
+// 	background-color: $body-background-color;
 
-	&.nav-open {
-		overflow: hidden;
+// 	&.nav-open {
+// 		overflow: hidden;
 
-		nav,
-		header > form {
-			display: block;
-		}
+// 		nav,
+// 		header > form {
+// 			display: block;
+// 		}
 
-		header {
-			bottom: 0;
-		}
-	}
+// 		header {
+// 			bottom: 0;
+// 		}
+// 	}
 
-	&::before {
-		content: "";
-		background-color: $content-background-color;
-		position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		z-index: -1;
-	}
+// 	&::before {
+// 		content: "";
+// 		background-color: $content-background-color;
+// 		position: fixed;
+// 		top: 0;
+// 		right: 0;
+// 		bottom: 0;
+// 		left: 0;
+// 		z-index: -1;
+// 	}
 
-	@media (min-width: $mobile-break) {
-		padding: 0 0 0 $nav-width;
+// 	@media (min-width: $mobile-break) {
+// 		padding: 0 0 0 $nav-width;
 
-		&.nav-open {
-			overflow: auto;
-		}
+// 		&.nav-open {
+// 			overflow: auto;
+// 		}
 
-		&::after,
-		&::before {
-			content: "";
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			z-index: -1;
-		}
+// 		&::after,
+// 		&::before {
+// 			content: "";
+// 			position: fixed;
+// 			top: 0;
+// 			bottom: 0;
+// 			z-index: -1;
+// 		}
 
-		&::after {
-			left: 0;
-			width: $nav-width;
-			background-color: $nav-background-color;
-		}
+// 		&::after {
+// 			left: 0;
+// 			width: $nav-width;
+// 			background-color: $nav-background-color;
+// 		}
 
-		#search-input,
-		&::after {
-			box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
-		}
+// 		#search-input,
+// 		&::after {
+// 			box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+// 		}
 
-		&::before {
-			left: $nav-width;
-			right: 0;
-			background-color: $content-background-color;
-		}
-	}
-}
+// 		&::before {
+// 			left: $nav-width;
+// 			right: 0;
+// 			background-color: $content-background-color;
+// 		}
+// 	}
+// }
 
 .main {
 	margin-top: $space + $nav-header-height;
