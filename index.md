@@ -1,7 +1,7 @@
 ---
-title: Going Further
+title: IOC 7 Day Coding Challenge
 published: true
-permalink: 
+permalink:
 ---
 
 The 7 Day Coding Challenge is officially closed. It's been such a pleasure to share our joy of coding with so many people from all over the world and humbling to hear first hand how much you have enjoyed it.&nbsp;
