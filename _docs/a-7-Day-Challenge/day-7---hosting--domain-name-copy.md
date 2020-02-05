@@ -2,7 +2,7 @@
 title: Day 7 - Hosting & Domain Names
 category: 7 Day Challenge
 order: 7
-published: true
+published: false
 permalink: /day-7/
 ---
 
