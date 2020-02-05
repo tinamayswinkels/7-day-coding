@@ -2,7 +2,7 @@
 title: Day 5 - Creating grid layouts
 category: 7 Day Challenge
 order: 5
-published: true
+published: false
 ---
 
 Gridlex is a library to make creating building grid layouts easier. Normally to create grids (ie three column grid, 4 column grid), we would need to calculate the width + margin of every column width separately, write the css for it, etc.
