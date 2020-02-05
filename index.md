@@ -4,7 +4,19 @@ published: true
 permalink: 
 ---
 
-Want to continue your coding journey? We've had lots of questions about where to go from here, and wanted to lay out all of your options.&nbsp;
+The 7 Day Coding Challenge is officially closed. It's been such a pleasure to share our joy of coding with so many people from all over the world and humbling to hear first hand how much you have enjoyed it.&nbsp;
+
+If you have found this free challenge valuable we would be so grateful if you would consider leaving us a review on [our facebook page](http://facebook.com/instituteofcode){: target="_blank"} with feedback for the free mini coding course.
+
+We would also welcome and constructive feedback you have about how we can make this course even better in future. This was our first time running an online program of this scale, and there have been lots of little lessons along the way but we're always open to hearing your thoughts and feedback via [email](mailto:hello@instituteofcode.com?subject=Feedback%20on%20Coding%20Challenge) or [DM](http://www.facebook.com/instituteofcode){: target="_blank"}.&nbsp;
+
+Who would have thought that in only 7 days worth of lessons you could go from zero to building real projects like these...
+
+![](/uploads/simple--2.png){: width="1159" height="2000"}
+
+*Want to continue your coding journey? We've had lots of questions about where to go from here, and wanted to lay out all of your options.&nbsp;*
+
+> *Keep reading for how to get $100 off Website in a Weekend for the next 7 days only.&nbsp;*
 
 ## **Free Coding Resources**
 
