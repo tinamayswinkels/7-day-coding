@@ -74,4 +74,4 @@ Oh, and it doesn't hurt that our program is all-inclusive in this beautiful vill
 
 ![](/uploads/ioc-6.jpg){: width="800" height="533"}
 
-Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge. For more details and your chance to receive one of these scholarships [apply via our website mentioning this](http://www.instituteofcode.com/courses/web-dev){: target="_blank"}&nbsp;and then [book a call to chat](www.calendly.com/ioc){: target="_blank"} with our course advisor Terry or co-founder Tina.
+Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge. For more details and your chance to receive one of these scholarships [apply via our website mentioning this](http://www.instituteofcode.com/courses/web-dev){: target="_blank"}&nbsp;and then [book a call to chat](http://www.calendly.com/ioc){: target="_blank"} with our course advisor Terry or co-founder Tina.
