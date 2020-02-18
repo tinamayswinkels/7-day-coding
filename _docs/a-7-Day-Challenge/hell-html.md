@@ -3,7 +3,7 @@ title: Day 1 - Hello HTML
 category: 7 Day Challenge
 order: 3
 published: true
-permalink: /day-3
+permalink: /day-1
 ---
 
 Welcome to day 1 of the 7 day beginners coding challenge\! Today we're going to look at how to create HTML elements in codepen, a code playground that allows us to start coding right away without needing to set up our HTML document or do anything else.
