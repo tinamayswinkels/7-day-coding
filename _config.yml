@@ -52,7 +52,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: layout-test
+      layout: documentation
       _options:
         content:
             width: 800
