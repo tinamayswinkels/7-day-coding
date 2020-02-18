@@ -2,7 +2,8 @@
 title: Day 2 - Hello CSS
 category: 7 Day Challenge
 order: 3
-published: false
+published: true
+permalink: /day-2
 ---
 
 Today we're going to take the HTML elements that we coded yesterday in codepen and style them\!&nbsp;<br><br>*This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one\!&nbsp;*
