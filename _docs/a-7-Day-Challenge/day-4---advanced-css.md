@@ -2,7 +2,8 @@
 title: Day 4 - Advanced CSS
 category: 7 Day Challenge
 order: 4
-published: false
+published: true
+permalink: /day-4
 ---
 
 Today we're going learn how to create structural html elements, and style individual and groups of elements with classes.&nbsp;
