@@ -71,6 +71,14 @@ input::-ms-reveal {
     margin-left: 320px;
 }
 
+@media(max-width:650px) {
+    .documentation-container {
+        margin-left: 5%;
+    }
+    
+}
+
+
 .padded {
     padding: 5%;
     max-width: 900px;
