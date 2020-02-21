@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v3.3.1">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="7 Day Coding" />
+		<!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Day 2 - Hello CSS - 7 Day Coding</title>
+<meta property="og:title" content="Day 2 - Hello CSS" />
+<meta name="description" content="Today we’re going to take the HTML elements that we coded yesterday in codepen and style them! This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one! " />
+<meta property="og:description" content="Today we’re going to take the HTML elements that we coded yesterday in codepen and style them! This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one! " />
+<link rel="canonical" href="http://localhost:4000/day-2-css" />
+<meta property="og:url" content="http://localhost:4000/day-2-css" />
+<meta property="og:site_name" content="7 Day Coding" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-21T17:50:06+08:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Day 2 - Hello CSS",
+    "datePublished": "2020-02-21T17:50:06+08:00",
+    "description": "Today we’re going to take the HTML elements that we coded yesterday in codepen and style them! This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one! ",
+    "logo": "http://localhost:4000/siteicon.png",
+    "url": "http://localhost:4000/day-2-css"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+		
+	</head>
+
+	<body>
+		 <header id="top">
+			<h1>
+				<a href="/"><img src="/images/emblem.svg" width="40" height="40" alt="7 Day Coding logo"></a>
+
+				
+				Coding Challenge
+				
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Welcome to IOC</a>
+					</li>
+				</ul>
+
+				<ul>
+                    
+
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/day-0">7 Day Challenge</a>
+							<ul>
+								
+								
+									<li class="nav-item "><a href="/day-0">Getting Setup</a></li>
+								
+								
+								
+									<li class="nav-item "><a href="/intro">Intro to Coding</a></li>
+								
+								
+								
+									<li class="nav-item "><a href="/day-1">Day 1 - Hello HTML</a></li>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<!--<li class="nav-item top-level">-->
+					<!--	-->
+     <!--   				<a href="https://web-dev.instituteofcode.com/a-positioning/intro-to-positioning/"> View Coursework </a>-->
+     <!--   				-->
+			  <!--  	</li>-->
+				</ul>
+			</nav>
+		</header>
+		<a id="top-button" href="#top"><i class="fas fa-chevron-up"></i></a>
+		<section class="main documentation-container">
+			<div class="page-header">
+				<h2>7 Day Challenge</h2>
+				<h3>Day 2 - Hello CSS</h3>
+			</div>
+			<article class="content">
+				<h3>Day 2 - Hello CSS</h3>
+		        <p>Today we’re going to take the HTML elements that we coded yesterday in codepen and style them! <br /><br /><em>This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one! </em></p>
+
+<div class="youtube embed-container">
+    <iframe src="https://www.youtube.com/embed/vKkds7j6i7Y" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>As elements are added to a web page, they may be styled using CSS. A selector designates exactly which element or elements within our HTML to target and apply styles to (such as color, size, and position). The most basic form of selectors target the type of element, such as <code class="highlighter-rouge">&lt;h1&gt;</code>or <code class="highlighter-rouge">&lt;p&gt;</code>.</p>
+
+<p>CSS is made up of selectors, properties and values.</p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">selector</span> <span class="p">{</span> <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span> <span class="p">}</span>
+</code></pre>
+</div>
+
+<p>Within CSS, selectors are followed with curly brackets, { }, which encompass the styles to be applied to the selected element. Below is an example of a p selector that would apply the styles listed within the curly brackets to all paragraphs on the page.</p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">p</span> <span class="p">{</span><span class="err">...</span><span class="p">}</span>
+</code></pre>
+</div>
+
+<p>Once an element is selected, a property determines the styles that will be applied to that element. Property names fall after a selector, within the curly brackets, { }, and immediately preceding a colon, :. There are numerous properties we can use, such as background, color, font-size, height, and width.</p>
+
+<p>Here we are selecting all <code class="highlighter-rouge">&lt;p&gt;</code> elements and setting the value of the (font) color property to be blue and the value of the font-size property to be 16 pixels (px).</p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">p</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>Each property has particular units of values that it will accept. For example, the value or a color property can be a common color name (like red, blue or green) or a hex code (#FEFEFE) or an rgb value ( rgb(60,60,60) ).</p>
+
+<p>It is a common practice to indent property and value pairs within the curly brackets. As with HTML, these indentations help keep our code organized and legible.</p>
+
+<h2 id="css-cheat-sheet">CSS Cheat Sheet</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Examples</td>
+      <td>Notes</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">background-color: red; </code><br /><br /><code class="highlighter-rouge">background-color: #FCF7DE; </code><br /><br /><code class="highlighter-rouge">background-color: rgb(60,60,65); </code></td>
+      <td>You can use simple color names, hex codes or rgb values </td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">color: #FF9AA2;</code></td>
+      <td>As with background colors, you can use names, hex codes or rgb values. </td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">padding: 2.5rem;</code><br /><br /><code class="highlighter-rouge">padding: 5%;</code><br /><br /><code class="highlighter-rouge">margin: 10px;</code><br /><br /><code class="highlighter-rouge">margin-bottom: 1rem;</code></td>
+      <td>Padding and margin can be specified in lots of different units, most commonly pixels, rems, and %. <br /><br />You can apply them on all sides by just using the padding or margin property or target specific sides with the properties like ‘padding-left’ or ‘margin-bottom’ </td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">font-size: 16px;</code><br /><br /><code class="highlighter-rouge">font-size: 2rem;</code></td>
+      <td>Font sizes are commonly set it rems or pixels. </td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">text-align: left;</code><br /><br /><code class="highlighter-rouge">text-align: center;</code><br /><br /><code class="highlighter-rouge">text-align: right;</code></td>
+      <td>Text alignment can be applied to individual elements or the whole page (the body)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="universal-selector--css-reset">Universal Selector &amp; CSS Reset</h3>
+
+<p>This selector selects everything on the page, and we use it to override the default browser styles. </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="o">*</span> <span class="p">{</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<h3 id="multiple-selector">Multiple Selector </h3>
+
+<p>This is an advanced selector that wasn’t covered in the video but might be helpful for this activity. You can use the multiple selector by putting a comma in between each element name and it will then select multiple elements and style them all together. </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>This for example would select all the h1, h2 and h3 elements and make them red. </p>
+
+<p> </p>
+
+<h2 id="activity-styling-with-css">Activity Styling with CSS</h2>
+
+<p>This is what we’ll be creating. If you get stuck, you can have a look at <a href="https://codepen.io/instituteofcode/pen/gJOdgL?editors=1100" target="_blank">my codepen here</a>. </p>
+
+<p><img src="/uploads/screen-shot-2020-01-11-at-8-56-43-am.png" alt="" width="800" height="514" /></p>
+
+<ol>
+  <li>Create 6 html element (for example, h1 to h5 and then a paragraph)</li>
+  <li>
+    <p>Use the universal selector and CSS reset to reset your browser styles <br /> </p>
+
+    <div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="o">*</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Give the body element some padding and a background color</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>body {
+  padding: 5%;
+  background-color: #FCF7DE;
+}
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Let’s use a multiple selector to select all the headings and paragraphs and give them the same padding and margin.</p>
+
+    <div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">p</span> <span class="p">{</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">1rem</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0.5rem</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Now let’s style each element one by one</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>h1 {
+  color: #ff6874;
+  background-color: #FF9AA2;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #ff877f;
+  background-color:#FFB7B2;
+  font-size: 2.2rem;
+}
+</code></pre>
+    </div>
+  </li>
+</ol>
+
+<blockquote>
+  <p><strong>Hint: Colors</strong></p>
+
+  <p>You are welcome to use your own colors for this challenge but if you want it to look the same as the example the color codes are:<br /><br />H1   #ff6874 &amp;  #FF9AA2</p>
+
+  <p>H2 #ff877f  &amp; #FFB7B2</p>
+
+  <p>H3 #ffbc8e &amp; #FFDAC1</p>
+
+  <p>H4   #c1df90 &amp; #edf6df </p>
+
+  <p>H5   #79d9b7  &amp; #c9f0e2</p>
+
+  <p>P #8f9dd5  &amp; #C7CEEA</p>
+</blockquote>
+
+<p><a href="/CSS Cheat Sheet.png" target="_blank">Printable CSS Cheat Sheet - Download here </a></p>
+
+			</article>
+		</section>
+
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+		<!-- this enables codepens to be embedded -->
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</body>
+</html>

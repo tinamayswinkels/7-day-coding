@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v3.3.1">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="7 Day Coding" />
+		<!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Day 4 - Advanced CSS - 7 Day Coding</title>
+<meta property="og:title" content="Day 4 - Advanced CSS" />
+<meta name="description" content="Today we’re going learn how to create structural html elements, and style individual and groups of elements with classes. " />
+<meta property="og:description" content="Today we’re going learn how to create structural html elements, and style individual and groups of elements with classes. " />
+<link rel="canonical" href="http://localhost:4000/day-4-advanced-css" />
+<meta property="og:url" content="http://localhost:4000/day-4-advanced-css" />
+<meta property="og:site_name" content="7 Day Coding" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-21T17:50:06+08:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Day 4 - Advanced CSS",
+    "datePublished": "2020-02-21T17:50:06+08:00",
+    "description": "Today we’re going learn how to create structural html elements, and style individual and groups of elements with classes. ",
+    "logo": "http://localhost:4000/siteicon.png",
+    "url": "http://localhost:4000/day-4-advanced-css"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+		
+	</head>
+
+	<body>
+		 <header id="top">
+			<h1>
+				<a href="/"><img src="/images/emblem.svg" width="40" height="40" alt="7 Day Coding logo"></a>
+
+				
+				Coding Challenge
+				
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Welcome to IOC</a>
+					</li>
+				</ul>
+
+				<ul>
+                    
+
+					
+						<li class="nav-item top-level current">
+							
+							<a href="/day-0">7 Day Challenge</a>
+							<ul>
+								
+								
+									<li class="nav-item "><a href="/day-0">Getting Setup</a></li>
+								
+								
+								
+									<li class="nav-item "><a href="/intro">Intro to Coding</a></li>
+								
+								
+								
+									<li class="nav-item "><a href="/day-1">Day 1 - Hello HTML</a></li>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<!--<li class="nav-item top-level">-->
+					<!--	-->
+     <!--   				<a href="https://web-dev.instituteofcode.com/a-positioning/intro-to-positioning/"> View Coursework </a>-->
+     <!--   				-->
+			  <!--  	</li>-->
+				</ul>
+			</nav>
+		</header>
+		<a id="top-button" href="#top"><i class="fas fa-chevron-up"></i></a>
+		<section class="main documentation-container">
+			<div class="page-header">
+				<h2>7 Day Challenge</h2>
+				<h3>Day 4 - Advanced CSS</h3>
+			</div>
+			<article class="content">
+				<h3>Day 4 - Advanced CSS</h3>
+		        <p>Today we’re going learn how to create structural html elements, and style individual and groups of elements with classes. </p>
+
+<div class="youtube embed-container">
+    <iframe src="https://www.youtube.com/embed/RUEX9trmzUY" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<blockquote>
+  <p>Whoops, there is a typo at 15 minutes – when you use an element selection ( like a ) and a class selector ( like .button ) it’s the class selector styles that will apply! </p>
+</blockquote>
+
+<h3 id="activity-1">Activity 1</h3>
+
+<p>P.S. Try not to copy and paste but rather to type yourself, as the muscle memory  helps you to learn</p>
+
+<p>1. In the html, create two h2, h3 and p elements</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;h2&gt;</span> My name is Tina <span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h2&gt;</span> I'm the co-founder of IOC <span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span> I was born in Australia <span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;h3&gt;</span> I live in Bali <span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;p&gt;</span> I love sunset walks on the beach with my puppy Houdini <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span> My favourite coffee is a soy latte <span class="nt">&lt;/p&gt;</span>
+</code></pre>
+</div>
+
+<p>2. Write a default style for each</p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">h2</span> <span class="p">{</span>
+  <span class="err">...</span>
+<span class="p">}</span>
+<span class="nt">h3</span> <span class="p">{</span>
+ <span class="err">...</span>
+<span class="p">}</span>
+<span class="nt">p</span> <span class="p">{</span>
+ <span class="err">...</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>3. Create a 3 classes with unique styles in your css. Experiment with adding these classes to various the html elements and watch as they override the default styles for each element (these are examples but feel free to use your own).</p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code>
+<span class="nc">.bg-featured</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="m">#ff7979</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.big-text</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">2.5rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.underline</span> <span class="p">{</span>
+  <span class="nl">border-bottom</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.fancy-text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">font-family</span><span class="p">:</span> <span class="s2">'Dancing Script'</span><span class="p">,</span> <span class="nb">cursive</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>Then experiment with adding these classes to the html elements and seeing what the effect is. </p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"big-text bg-featured"</span><span class="nt">&gt;</span> My name is Tina <span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"underline"</span><span class="nt">&gt;</span> I'm the co-founder of IOC <span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span> I was born in Australia <span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"fancy-text"</span><span class="nt">&gt;</span> I live in Bali <span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;p&gt;</span> I love sunset walks on the beach with my puppy Houdini <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"bg-featured"</span><span class="nt">&gt;</span> My favourite coffee is a soy latte <span class="nt">&lt;/p&gt;</span>
+​​​
+</code></pre>
+</div>
+
+<p><em>P.S. If you want to use a google font, make sure you have added the link to the &lt;head&gt; in the settings.  </em></p>
+
+<h2 id="activity-2---light--dark-sections">Activity 2 - Light &amp; Dark Sections </h2>
+
+<div class="youtube embed-container">
+    <iframe src="https://www.youtube.com/embed/qA67cSTK-GY" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p><img src="/uploads/screen-shot-2020-01-14-at-12-45-38-pm.png" alt="" width="800" height="690" /></p>
+
+<p>1. Start by setting up your html with two sections, each with a h2, paragraph and link. Add a class for each background, and one for each button. </p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"bg-light"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2&gt;</span> Light <span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum eveniet velit. A recusandae labore inventore? Impedit, aperiam? Voluptatibus, tempora ullam! Impedit fugit sequi consequuntur, aliquam harum explicabo aspernatur neque.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span> Learn More <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+
+<span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"bg-dark"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2&gt;</span> Dark <span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum eveniet velit. A recusandae labore inventore? Impedit, aperiam? Voluptatibus, tempora ullam! Impedit fugit sequi consequuntur, aliquam harum explicabo aspernatur neque.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span> Learn More <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre>
+</div>
+
+<p>2. Clean the slate with your CSS reset </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="o">*</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>3. Set some default styles  </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s1">"Quicksand"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">section</span> <span class="p">{</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">5%</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">h2</span><span class="o">,</span> <span class="nt">p</span> <span class="p">{</span>
+  <span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">1rem</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>4. Style your light and dark background classes </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nc">.bg-light</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">230</span><span class="p">,</span><span class="m">230</span><span class="p">,</span><span class="m">230</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nc">.bg-dark</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">60</span><span class="p">,</span><span class="m">60</span><span class="p">,</span><span class="m">60</span><span class="p">);</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>5. Style your buttons </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nc">.button</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nb">inherit</span><span class="p">;</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0.5rem</span> <span class="m">2rem</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="err">​​​​​</span>
+</code></pre>
+</div>
+
+<p>6. Bonus: Add a hover effect to your buttons </p>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nc">.button</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">orange</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p><br />Here’s a link to the <a href="https://codepen.io/instituteofcode/pen/bJzKNo?editors=1100" target="_blank">codepen</a> finished example.</p>
+
+<p><strong>BONUS LESSON</strong></p>
+
+<p>Some of you have asked about how to style just a specific part of text within another element. This wasn’t planned to be part of the 7 day challenge, but I’ve included a little how to below. </p>
+
+<p>To style just part of text element we need to use a new container element called a span. </p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;h2&gt;</span> My name is <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"featured-text"</span><span class="nt">&gt;</span> Tina May <span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;/h2&gt;</span>
+</code></pre>
+</div>
+
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="nc">.featured-text</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+			</article>
+		</section>
+
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+		<!-- this enables codepens to be embedded -->
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</body>
+</html>

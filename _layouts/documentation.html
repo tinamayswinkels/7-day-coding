@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-		
+
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
@@ -34,9 +34,9 @@
 		 <header id="top">
 			<h1>
 				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/emblem.svg" width="40" height="40" alt="{{ site.title }} logo"></a>
-				
+
 				{% if page.collection == 'docs-2' %}
-				Coursework 
+				Coursework
 				{% else %}
 				Coding Challenge
 				{% endif %}
@@ -62,14 +62,16 @@
 					{% else %}
 					{% assign grouped = site.docs | group_by: 'category' %}
 					{% endif %}
-					
+
 					{% for group in grouped %}
 						<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
 							{% assign items = group.items | sort: 'order' %}
 							<a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a>
 							<ul>
 								{% for item in items %}
+								{% unless item.hidden-from-menu == true %}
 									<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+								{% endunless %}
 								{% endfor %}
 							</ul>
 						</li>
@@ -84,7 +86,7 @@
      <!--   				<a href="https://web-dev.instituteofcode.com/a-positioning/intro-to-positioning/"> View Coursework </a>-->
      <!--   				{% endif %}-->
 			  <!--  	</li>-->
-				</ul> 
+				</ul>
 			</nav>
 		</header>
 		<a id="top-button" href="#top"><i class="fas fa-chevron-up"></i></a>

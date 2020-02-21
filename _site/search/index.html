@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v3.3.1">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="7 Day Coding" />
+		<!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Search - 7 Day Coding</title>
+<meta property="og:title" content="Search" />
+<meta name="description" content="Pre-Coursework for Institute of Code’s 10 Day Web Development Intensive" />
+<meta property="og:description" content="Pre-Coursework for Institute of Code’s 10 Day Web Development Intensive" />
+<link rel="canonical" href="http://localhost:4000/search/" />
+<meta property="og:url" content="http://localhost:4000/search/" />
+<meta property="og:site_name" content="7 Day Coding" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "headline": "Search",
+    "description": "Pre-Coursework for Institute of Code’s 10 Day Web Development Intensive",
+    "logo": "http://localhost:4000/siteicon.png",
+    "url": "http://localhost:4000/search/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+		
+	</head>
+
+	<body>
+		 <header id="top">
+			<h1>
+				<a href="/"><img src="/images/emblem.svg" width="40" height="40" alt="7 Day Coding logo"></a>
+
+				
+				Coding Challenge
+				
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Welcome to IOC</a>
+					</li>
+				</ul>
+
+				<ul>
+                    
+
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/day-0">7 Day Challenge</a>
+							<ul>
+								
+								
+									<li class="nav-item "><a href="/day-0">Getting Setup</a></li>
+								
+								
+								
+									<li class="nav-item "><a href="/intro">Intro to Coding</a></li>
+								
+								
+								
+									<li class="nav-item "><a href="/day-1">Day 1 - Hello HTML</a></li>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<!--<li class="nav-item top-level">-->
+					<!--	-->
+     <!--   				<a href="https://web-dev.instituteofcode.com/a-positioning/intro-to-positioning/"> View Coursework </a>-->
+     <!--   				-->
+			  <!--  	</li>-->
+				</ul>
+			</nav>
+		</header>
+		<a id="top-button" href="#top"><i class="fas fa-chevron-up"></i></a>
+		<section class="main documentation-container">
+			<div class="page-header">
+				<h2>7 Day Coding</h2>
+				<h3>Search</h3>
+			</div>
+			<article class="content">
+				<h3>Search</h3>
+		        <p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
+<ul id="search-results"></ul>
+
+<script>
+	window.data = {
+		
+			
+				
+					
+					
+
+					"intro": {
+						"id": "intro",
+						"title": "Intro to Coding",
+						"category": "",
+						"url": " /intro",
+						"content": "Code is just a set of instructions written in a language that computers can understand. When we write code, we’re literally just writing a text document with a specific combination of characters and symbols (like punctuation). This is a bonus lesson, for anyone who wants to understand a little better the terminology and eco-system around the skills we’ll be teaching you. We’ll be learning coding languages which include HTML &amp; CSS. A website is made up of a collection of these text files (some written in HTML, some written in CSS and possibly some written in Javascript) and assets like images all stored within a folder. During the course, you’ll be writing code in HTML, CSS and Javascript which the browser will interpret and ‘draw’ into a beautiful interactive website. Key Takeaways Front-end vs Back-end Front-end development deals with the part of the web you can see and interact with – the user interface of websites and apps. Frontend development always includes HTML &amp; CSS and sometimes Javascript. Web-Development is a subset of Front-end development that just deals with how to built websites. Back-end development deals with the part of a website or app that you can’t see – that interacts with the database or server, powers apps etc. Many simple websites don’t need a backend at all, but complex sites like e-commerce stores, Netflix, Google, etc all have a backend powering their functionality. Languages, Libraries &amp; Frameworks At the top level we have programming languages – things like HTML, CSS, Javascript, PHP, etc. Each language has it’s own syntax and semantics (it’s vocabulary and patterns of usage that allow it to make sense). HTML controls the structure of web-pages. We use HTML to add headings, paragraphs, links, images, sections etc to our website. CSS controls the style of the website, by applying colors, fonts, positioning, etc to the HTML elements. Javascript adds interactivity to your website. If you have a slider, or pop-up or FAQs that drop-down these were likely controlled Javascript. Below programming languages we have libraries and frameworks. These are sets of pre-written code that allow us to code in that particular programming language faster. jQuery for example is a library for javascript that takes many of the common tasks someone would want to accomplish with javascript (like showing and hiding content) and does the hard work for you – you can just write shorthand jQuery and it will utilise the pre-written code to speedup your workflow. Imagine it kind of like building a desk – the programming languages are the raw materials, timber, steel, plastic etc. But the libraries and frameworks are pre-built components like table-legs and table-top that you can quickly assemble together. You may have heard of Angular, React, jQuery, Vue.js … these are some of the most popular libraries for Javascript. jQuery is great for adding simple functionality to websites, while the others can be used to create interactive interfaces for complex web apps. Likewise Bootstrap, Foundation &amp; Materialize, are all libraries for HTML &amp; CSS that have a set of pre-written code to allow you to quickly build common elements (like say a button or a contact form). For example, by using one of these libraries to create a button you could just use built-in classes like ‘button’ and it would pull in pre-written css styles to make that link look and feel like a button. Many sites also then have a CMS or Content Management System, like Wordpress, Joomla, CloudCannon, etc. Content management systems are a piece of software that sits between an end user and the code files and allows non-technical users to make changes to the content of the website without knowing how to code. When someone says they have a ‘wordpress website’ they mean that they have a site that’s built in HTML, CSS &amp; javascript but integrated into the wordpress content management system using PHP (the programming language that wordpress uses). Because Wordpress has a specific way that it likes the code to be written you can’t always take a Wordpress website and move it away from Wordpress even though it also uses HTML &amp; CSS."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-0": {
+						"id": "day-0",
+						"title": "Getting Setup",
+						"category": "",
+						"url": " /day-0",
+						"content": "There are a few things that we use during the course that we ask you to download set up for both the practice challenges and the course in general. Browser: Chrome We’ll be using Chrome to preview and test our websites, as it has the best developer tools. Download the latest version of Google Chrome If you for some reason can’t download Chrome, we recommend Firefox as the next best option. Online Code Editor: CodePen Next you will need a CodePen account. CodePen is a great site for testing code when you don’t want to set up a folder and files for tiny snippets of code. Go to http: codepen.io and click on the Sign Up button on the top right corner. Scroll to the Free Plan and Sign Up. We’ll be using codepen for the first 6 days of the course to learn new coding concepts or play with ideas straight from the browser. Code Editor: Atom Go to https: atom.io download the latest version. Atom is the code editor that we are using to write code and build your website projects. You can write code in any text editor (even simple applications like text-edit) but code editors like Atom have additional functionality that makes web development easier, like code hints and color coding the syntax. If you don’t want to publish your final project live, you won’t need Atom so you can ignore this step. Course Outline Day 1 - We’ll look at how to start coding in HTML and the basic sytax of html elements, including headings, paragraphs and links.  Day 2 - We’ll learn how to use CSS to style those elements, changing the fonts, colors, and more  Day 3 - Let’s dig deeper into styling typography!  Day 4 - We’ll learn how to create columns and grids, to make beautiful layouts  Day 5 - We’ll learn how to embed youtube videos or google maps into your site responsively and look at optimising images for the web. Day 6 - We’ll build a custom splash page (mini website page) together from start to finish  Day 7 - We’ll upload it to a free hosting profiler and connect it to a custom domain name (if you have one)  Excited yet?   Each day we’ll share a new video and a dedicated post in the FB community for you to ask questions, share your insights and experiences and towards the second half of the week share what you have built!   "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-1": {
+						"id": "day-1",
+						"title": "Day 1 - Hello HTML",
+						"category": "",
+						"url": " /day-1",
+						"content": "Welcome to day 1 of the 7 day beginners coding challenge! Today we’re going to look at how to create HTML elements in codepen, a code playground that allows us to start coding right away without needing to set up our HTML document or do anything else. This video is taken from our online Website in a Weekend course.  HTML Syntax:  &lt;element&gt; Content to display &lt; element&gt; &lt;element attribute=\"value\"&gt; Content to display &lt; element&gt; The main text elements are 6 levels of headings (from h1 through to h6), paragraphs and anchor links.  H1: &lt;h1&gt; Heading 1 &lt; h1&gt; H2: &lt;h2&gt; Subheading &lt; h2&gt; H3: &lt;h3&gt; Even less important heading &lt; h3&gt; Paragraphs: &lt;p&gt; This is a short paragraph. One paragraph can have multiple sentences. &lt; p&gt; Links: &lt;a href=\"http: www.google.com\"&gt; Google it &lt; a&gt; Activity on Codepen.io Set up a Codepen account and create a new pen Create a h1 heading with your name  Create a h2 heading with your job title  Create a paragraph that describes you  Inside that paragraph add a link to one of your social media pages Save your Codepen! Spoiler… "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-2-css": {
+						"id": "day-2-css",
+						"title": "Day 2 - Hello CSS",
+						"category": "",
+						"url": " /day-2-css",
+						"content": "Today we’re going to take the HTML elements that we coded yesterday in codepen and style them! This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one!  As elements are added to a web page, they may be styled using CSS. A selector designates exactly which element or elements within our HTML to target and apply styles to (such as color, size, and position). The most basic form of selectors target the type of element, such as &lt;h1&gt;or &lt;p&gt;. CSS is made up of selectors, properties and values. selector { property: value; } Within CSS, selectors are followed with curly brackets, { }, which encompass the styles to be applied to the selected element. Below is an example of a p selector that would apply the styles listed within the curly brackets to all paragraphs on the page. p {...} Once an element is selected, a property determines the styles that will be applied to that element. Property names fall after a selector, within the curly brackets, { }, and immediately preceding a colon, :. There are numerous properties we can use, such as background, color, font-size, height, and width. Here we are selecting all &lt;p&gt; elements and setting the value of the (font) color property to be blue and the value of the font-size property to be 16 pixels (px). p { color: blue; font-size: 16px; } Each property has particular units of values that it will accept. For example, the value or a color property can be a common color name (like red, blue or green) or a hex code (#FEFEFE) or an rgb value ( rgb(60,60,60) ). It is a common practice to indent property and value pairs within the curly brackets. As with HTML, these indentations help keep our code organized and legible. CSS Cheat Sheet Examples Notes background-color: red; background-color: #FCF7DE; background-color: rgb(60,60,65); You can use simple color names, hex codes or rgb values  color: #FF9AA2; As with background colors, you can use names, hex codes or rgb values.  padding: 2.5rem;padding: 5%;margin: 10px;margin-bottom: 1rem; Padding and margin can be specified in lots of different units, most commonly pixels, rems, and %. You can apply them on all sides by just using the padding or margin property or target specific sides with the properties like ‘padding-left’ or ‘margin-bottom’  font-size: 16px;font-size: 2rem; Font sizes are commonly set it rems or pixels.  text-align: left;text-align: center;text-align: right; Text alignment can be applied to individual elements or the whole page (the body) Universal Selector &amp; CSS Reset This selector selects everything on the page, and we use it to override the default browser styles.  * { padding: 0; margin: 0; } Multiple Selector  This is an advanced selector that wasn’t covered in the video but might be helpful for this activity. You can use the multiple selector by putting a comma in between each element name and it will then select multiple elements and style them all together.  h1, h2, h3 { color: red; } This for example would select all the h1, h2 and h3 elements and make them red.    Activity Styling with CSS This is what we’ll be creating. If you get stuck, you can have a look at my codepen here.  Create 6 html element (for example, h1 to h5 and then a paragraph) Use the universal selector and CSS reset to reset your browser styles   * { margin: 0; padding: 0; } Give the body element some padding and a background color body { padding: 5%; background-color: #FCF7DE; } Let’s use a multiple selector to select all the headings and paragraphs and give them the same padding and margin. h1, h2, h3, h4, h5, p { padding: 1rem; margin: 0.5rem; } Now let’s style each element one by one h1 { color: #ff6874; background-color: #FF9AA2; font-size: 2.5rem; } h2 { color: #ff877f; background-color:#FFB7B2; font-size: 2.2rem; } Hint: Colors You are welcome to use your own colors for this challenge but if you want it to look the same as the example the color codes are:H1   #ff6874 &amp;  #FF9AA2 H2 #ff877f  &amp; #FFB7B2 H3 #ffbc8e &amp; #FFDAC1 H4   #c1df90 &amp; #edf6df  H5   #79d9b7  &amp; #c9f0e2 P #8f9dd5  &amp; #C7CEEA Printable CSS Cheat Sheet - Download here "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-3-typography": {
+						"id": "day-3-typography",
+						"title": "Day 3 - Typography",
+						"category": "",
+						"url": " /day-3-typography",
+						"content": "Today we’re going to take the HTML elements that we coded yesterday in codepen and style them! This video is taken from our Website in a Weekend online course, so please ignore mentions to other lessons and just focus on the content in this one!  Here’s a link to the codepen finished example. Styling Text The color property changes the color of text. Colors can be set using color names (blue, green, yellow), hex codes (#FFF), rgb values (rgb(60,60,65)) or rgba values which are like rgb values but also have an ‘alpha’ value which determines the transparency (rgba(60,60,65,0.5)). Eg. This will set the color of all of the paragraphs to red. p { color: red; } The font-family property sets the font of the text. By default there are around 15 fonts that are available by default in every browser, including ‘Arial’, ‘Helvetica’ and ‘Georgia’ and ‘Courier New’. More often than not though, we will use a more attractive font that is hosted by google – aka a ‘Google Font’. We’ll learn how to add google font’s during the retreat, but for now just have a look at the google fonts and see how many there are! If you are using a web-font, then you should specify a ‘fall-back’ font for it to use in case the web-font doesn’t load. Options include Serif, Sans-Serif, and Script. Eg. This will set the font of all h1 headings to Courier New. h1 { font-family: 'Courier New', sans-serif; } The font-weight property sets the thickness of the font. Depending on your font, the options available may just be normal and bold, or you may have up to 8 variations (100, 200, 300, 400, 500, 600, 700, 800). Eg. This sets all paragraphs to be bold. p { font-weight: bold;} The text-align property sets the way that the text flows on the page, it can be left aligned, right aligned, center aligned or justified. Eg. This will align the body (ie the whole page) to the center. body { text-align: center;} The text-decoration property determines any ‘decorations’ on the text like underline. You will notice that links are underlined by default, so if you want to remove the underline you would need to set the text decoration to none. Eg. This removes the underline from all links and instead makes them bold. a { text-decoration: none; font-weight: bold; } LINK TO SLIDES"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-4-advanced-css": {
+						"id": "day-4-advanced-css",
+						"title": "Day 4 - Advanced CSS",
+						"category": "",
+						"url": " /day-4-advanced-css",
+						"content": "Today we’re going learn how to create structural html elements, and style individual and groups of elements with classes.  Whoops, there is a typo at 15 minutes – when you use an element selection ( like a ) and a class selector ( like .button ) it’s the class selector styles that will apply!  Activity 1 P.S. Try not to copy and paste but rather to type yourself, as the muscle memory  helps you to learn 1. In the html, create two h2, h3 and p elements &lt;h2&gt; My name is Tina &lt; h2&gt; &lt;h2&gt; I'm the co-founder of IOC &lt; h2&gt; &lt;h3&gt; I was born in Australia &lt; h3&gt; &lt;h3&gt; I live in Bali &lt; h3&gt; &lt;p&gt; I love sunset walks on the beach with my puppy Houdini &lt; p&gt; &lt;p&gt; My favourite coffee is a soy latte &lt; p&gt; 2. Write a default style for each h2 { ... } h3 { ... } p { ... } 3. Create a 3 classes with unique styles in your css. Experiment with adding these classes to various the html elements and watch as they override the default styles for each element (these are examples but feel free to use your own). .bg-featured { background-color: #ff7979; } .big-text { font-size: 2.5rem; } .underline { border-bottom: 2px solid; } .fancy-text { font-family: font-family: 'Dancing Script', cursive; } Then experiment with adding these classes to the html elements and seeing what the effect is.  &lt;h2 class=\"big-text bg-featured\"&gt; My name is Tina &lt; h2&gt; &lt;h2 class=\"underline\"&gt; I'm the co-founder of IOC &lt; h2&gt; &lt;h3&gt; I was born in Australia &lt; h3&gt; &lt;h3 class=\"fancy-text\"&gt; I live in Bali &lt; h3&gt; &lt;p&gt; I love sunset walks on the beach with my puppy Houdini &lt; p&gt; &lt;p class=\"bg-featured\"&gt; My favourite coffee is a soy latte &lt; p&gt; ​​​ P.S. If you want to use a google font, make sure you have added the link to the &lt;head&gt; in the settings.   Activity 2 - Light &amp; Dark Sections  1. Start by setting up your html with two sections, each with a h2, paragraph and link. Add a class for each background, and one for each button.  &lt;section class=\"bg-light\"&gt; &lt;h2&gt; Light &lt; h2&gt; &lt;p&gt; Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum eveniet velit. A recusandae labore inventore? Impedit, aperiam? Voluptatibus, tempora ullam! Impedit fugit sequi consequuntur, aliquam harum explicabo aspernatur neque.&lt; p&gt; &lt;a class=\"button\" href=\"#\"&gt; Learn More &lt; a&gt; &lt; section&gt; &lt;section class=\"bg-dark\"&gt; &lt;h2&gt; Dark &lt; h2&gt; &lt;p&gt; Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum eveniet velit. A recusandae labore inventore? Impedit, aperiam? Voluptatibus, tempora ullam! Impedit fugit sequi consequuntur, aliquam harum explicabo aspernatur neque.&lt; p&gt; &lt;a class=\"button\" href=\"#\"&gt; Learn More &lt; a&gt; &lt; section&gt; 2. Clean the slate with your CSS reset  * { margin: 0; padding: 0; } 3. Set some default styles   body { font-family: \"Quicksand\"; } section { padding: 5%; } h2, p { margin-bottom: 1rem; } 4. Style your light and dark background classes  .bg-light { background-color: rgb(230,230,230); } .bg-dark { background-color: rgb(60,60,60); color: white; } 5. Style your buttons  .button { color: inherit; text-decoration: none; border: 2px solid; padding: 0.5rem 2rem; display: inline-block; } ​​​​​ 6. Bonus: Add a hover effect to your buttons  .button:hover { color: orange; } Here’s a link to the codepen finished example. BONUS LESSON Some of you have asked about how to style just a specific part of text within another element. This wasn’t planned to be part of the 7 day challenge, but I’ve included a little how to below.  To style just part of text element we need to use a new container element called a span.  &lt;h2&gt; My name is &lt;span class=\"featured-text\"&gt; Tina May &lt; span&gt; &lt; h2&gt; .featured-text { color: red; }"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-5": {
+						"id": "day-5",
+						"title": "Day 5 - Creating grid layouts",
+						"category": "",
+						"url": " /day-5",
+						"content": "Gridlex is a library to make creating building grid layouts easier. Normally to create grids (ie three column grid, 4 column grid), we would need to calculate the width + margin of every column width separately, write the css for it, etc. Gridlex is a css stylesheet that someone has already written to make this process simpler, we just need to connect it to our site and reference the class names that it uses.  This video is taken from the Website in a Weekend Course.  To use any external library or resources, we start by adding it in the head. In codepen, this is in the settings.  &lt;link rel=\"stylesheet\" href=\"https: cdnjs.cloudflare.com ajax libs gridlex 2.6.0 gridlex.min.css\"&gt; Then simplest way to create grids with gridlex is to add a class of grid to the container element and a class of col to all of the children &lt;div class=\"grid\"&gt; &lt;div class=\"col\"&gt; ... &lt; div&gt; &lt;div class=\"col\"&gt; ... &lt; div&gt; &lt;div class=\"col\"&gt; ... &lt; div&gt; &lt; div&gt; Introducing the 12 col grid Web design often operates on either a 12 or a 16 column grid, where the page is divided up into twelfths and layouts are created based on how many 12th they take up. So half the page would be 12 2  = 6 columns. A third of the page would be 12 4 = 3 columns. A full page width always ads to 12.  Example: 2 column grid &lt;div class=\"grid\"&gt; &lt;div class=\"col-6\"&gt; ... &lt; div&gt; &lt;div class=\"col-6\"&gt; ... &lt; div&gt; &lt; div&gt; Example: 3 column grid &lt;div class=\"grid\"&gt; &lt;div class=\"col-4\"&gt; ... &lt; div&gt; &lt;div class=\"col-4\"&gt; ... &lt; div&gt; &lt;div class=\"col-4\"&gt; ... &lt; div&gt; &lt; div&gt; Example: a 4 column grid &lt;div class=\"grid\"&gt; &lt;div class=\"col-3\"&gt; ... &lt; div&gt; &lt;div class=\"col-3\"&gt; ... &lt; div&gt; &lt;div class=\"col-3\"&gt; ... &lt; div&gt; &lt;div class=\"col-3\"&gt; ... &lt; div&gt; &lt; div&gt; At first it seems confusing that to create three columns you use ‘col-4’ and to create 4 columns you use ‘col-3’ but after a while it becomes second nature.  Example: Mixed Columns  What about a container that looked like this?  &lt;div class=\"grid\"&gt; &lt;div class=\"col-4\"&gt; ... &lt; div&gt; &lt;div class=\"col-8\"&gt; ... &lt; div&gt; &lt;div class=\"col-6\"&gt; ... &lt; div&gt; &lt;div class=\"col-3\"&gt; ... &lt; div&gt; &lt;div class=\"col-3\"&gt; ... &lt; div&gt; &lt; div&gt;"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-6": {
+						"id": "day-6",
+						"title": "Day 6 - Building a splash page",
+						"category": "",
+						"url": " /day-6",
+						"content": "It’s finally time to build a real splash page! We’ve created 3 simple designs and recorded a video tutorial and Codepen example for each one, so you can get your creative juices flowing. Tomorrow we’ll show you had to add interactive elements like a google map and how to actually make it live if you want to! Apologies if I moved a bit fast in this one, I introduced a few extra topics that weren’t supposed to be included in the free challenge but I just knew that you would want to learn them!  Splash Page 1 View on Codepen  Splash Page 2 View on Codepen  Splash Page 3 View on Codepen    BONUS: Splash Page 4 In this one, we’ll build it from scratch using Atom including setting up the HTML and linking the CSS. Then in tomorrow’s video will upload it to the hosting &amp; domain name!   Video uploading now, check back in one hour…. Download Code Files   Embedding Responsive Google Maps or Youtube Videos Embedding Responsive Google Maps Find the map you want to share on google maps  Click on Share &gt; Embed Map  Copy the html and adjust the width to 100% Paste in into whatever container element (div, section etc) you want.   Embedding Responsive Youtube Videos  Copy the URL of the video you want to embed (not the embed code) Paste the URL into embedresponsively.com Copy the outputted code into your HTML The advantage of this method over the standard copy + paste embed is that the video is responsive, you can put it in any container div or section and it will fill the width while maintaining it’s aspect ratio (no black bars at the top or sides!)  "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"day-7": {
+						"id": "day-7",
+						"title": "Day 7 - Hosting &amp; Domain Names",
+						"category": "",
+						"url": " /day-7/",
+						"content": "For this last lesson, make sure that you have completed the last tutorial from yesterday, splash page 4 so you understand how to build a project locally.  Uploading to Hosting &amp; Domain Name"
+					}
+
+					
+				
+			
+		
+	};
+</script>
+<script src="/scripts/lunr.min.js"></script>
+<script src="/scripts/search.js"></script>
+
+			</article>
+		</section>
+
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+		<!-- this enables codepens to be embedded -->
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</body>
+</html>
