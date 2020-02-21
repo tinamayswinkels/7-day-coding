@@ -2,7 +2,7 @@
 title: Going Further
 category: 7 Day Challenge
 order: 7
-published: false
+published: true
 permalink: /website-in-a-weekend/
 ---
 
