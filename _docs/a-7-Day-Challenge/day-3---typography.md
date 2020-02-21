@@ -2,7 +2,7 @@
 title: Day 3 - Typography
 category: 7 Day Challenge
 order: 3
-published: true
+published: false
 permalink: day-3-typography
 ---
 
