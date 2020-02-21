@@ -2,7 +2,7 @@
 title: Day 6 - Building a splash page
 category: 7 Day Challenge
 order: 6
-published: true
+published: false
 permalink: /day-6
 ---
 
