@@ -4,7 +4,7 @@ category: 7 Day Challenge
 order: 7
 published: true
 hidden-from-menu: true
-permalink: /day-7/
+permalink: /day-7
 ---
 
 For this last lesson, make sure that you have completed the last tutorial from yesterday, splash page 4 so you understand how to build a project locally.&nbsp;

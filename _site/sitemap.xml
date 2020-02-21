@@ -54,13 +54,13 @@
 <loc>http://localhost:4000/day-1</loc>
 </url>
 <url>
-<loc>http://localhost:4000/day-2-css</loc>
+<loc>http://localhost:4000/day-2</loc>
 </url>
 <url>
-<loc>http://localhost:4000/day-3-typography</loc>
+<loc>http://localhost:4000/day-3</loc>
 </url>
 <url>
-<loc>http://localhost:4000/day-4-advanced-css</loc>
+<loc>http://localhost:4000/day-4</loc>
 </url>
 <url>
 <loc>http://localhost:4000/day-5</loc>
@@ -69,7 +69,7 @@
 <loc>http://localhost:4000/day-6</loc>
 </url>
 <url>
-<loc>http://localhost:4000/day-7/</loc>
+<loc>http://localhost:4000/day-7</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Typography.pdf</loc>
