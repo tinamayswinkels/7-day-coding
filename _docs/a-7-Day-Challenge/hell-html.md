@@ -1,7 +1,7 @@
 ---
 title: Day 1 - Hello HTML
 category: 7 Day Challenge
-order: 3
+order: 2
 published: true
 permalink: /day-1
 ---
