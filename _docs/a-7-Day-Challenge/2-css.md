@@ -3,7 +3,7 @@ title: Day 2 - Hello CSS
 category: 7 Day Challenge
 order: 3
 published: true
-hidden-from-menu: true
+hidden-from-menu: false
 permalink: /day-2
 ---
 
