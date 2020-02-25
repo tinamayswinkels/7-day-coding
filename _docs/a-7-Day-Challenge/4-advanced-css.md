@@ -3,7 +3,7 @@ title: Day 4 - Advanced CSS
 category: 7 Day Challenge
 order: 4
 published: true
-hidden-from-menu: true
+hidden-from-menu: false
 permalink: /day-4
 ---
 
