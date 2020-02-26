@@ -3,7 +3,7 @@ title: Day 5 - Creating grid layouts
 category: 7 Day Challenge
 order: 5
 published: true
-hidden-from-menu: true
+hidden-from-menu: false
 permalink: /day-5
 ---
 
