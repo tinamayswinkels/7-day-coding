@@ -1,7 +1,7 @@
 ---
 title: IOC 7 Day Coding Challenge
 published: true
-permalink:
+permalink: /
 layout: default
 ---
 
