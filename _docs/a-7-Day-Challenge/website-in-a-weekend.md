@@ -72,4 +72,4 @@ Oh, and it doesn't hurt that our program is all-inclusive in this beautiful vill
 
 ![](/uploads/ioc-6.jpg){: width="800" height="533"}
 
-Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge.&nbsp;<br><br>To apply, send an email to tina@instituteofcode.co or DM Institute of Code and m and in a few sentences tell me why you want to attend the bootcamp.&nbsp;
+Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge.&nbsp;<br><br>To apply, send an email to tina@instituteofcode.com or DM Institute of Code on FB or Instagram and in a few sentences tell us why you want to attend the bootcamp.&nbsp;
