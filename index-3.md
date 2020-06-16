@@ -7,17 +7,25 @@ layout: default
 
 The 7 Day Coding Challenge is officially closed. It's been such a pleasure to share our joy of coding with so many people from all over the world and humbling to hear first hand how much you have enjoyed it.&nbsp;
 
+> *Keep reading for how to get $100 off Website in a Weekend for the next 7 days only, and an opportunity to receive a partial scholarship to attend our bootcamp in Bali.*
+
 If you have found this free challenge valuable we would be so grateful if you would consider leaving us a review on [our facebook page](http://facebook.com/instituteofcode){: target="_blank"} with feedback for the free mini coding course.
 
-We would also welcome and constructive feedback you have about how we can make this course even better in future. This was our first time running an online program of this scale, and there have been lots of little lessons along the way but we're always open to hearing your thoughts and feedback via [email](mailto:hello@instituteofcode.com?subject=Feedback%20on%20Coding%20Challenge) or [DM](http://www.facebook.com/instituteofcode){: target="_blank"}.&nbsp;
+We would also welcome and constructive feedback you have about how we can make this course even better in future. With over 10,000 people signing up, this was our first time running an online program of this scale, and there have been lots of little lessons along the way but we're always open to hearing your thoughts and feedback via [email](mailto:hello@instituteofcode.com?subject=Feedback%20on%20Coding%20Challenge) or [DM](http://www.facebook.com/instituteofcode){: target="_blank"}.&nbsp;
 
-Who would have thought that in only 7 days worth of lessons you could go from zero to building real projects like these...
+Who would have thought that in only 7 days worth of lessons you could go from zero to building real projects like these…
 
 ![](/uploads/simple--2.png){: width="1159" height="2000"}
 
 *Want to continue your coding journey? We've had lots of questions about where to go from here, and wanted to lay out all of your options.&nbsp;*
 
-> *Keep reading for how to get $100 off Website in a Weekend for the next 7 days only.&nbsp;*
+### Get lifetime access to the challenge tutorials
+
+**Want to keep access to the 7-day challenge so that you can review the lessons at your own pace and build more splash pages?&nbsp;**
+
+**[Keep lifetime access to the 7 day coding challenge for only $29](https://ioc.podia.com/?coupon=LOCKDOWN)&nbsp;**
+
+(offer only available in the next two weeks\!)
 
 ## **Free Coding Resources**
 
@@ -37,15 +45,15 @@ We've had so many questions about [our online course](https://www.instituteofcod
 
 **1\. What does this cover that we haven't already learnt?&nbsp;**
 
-It digs deeper into HTML & CSS, including more advanced styling, and making your website responsive (adapt to mobile and tablet devices). By the end of the course you'll have the skills and resources to build a complete website from scratch.&nbsp;
+It digs deeper into HTML & CSS, including more advanced styling, and making your website responsive (adapt to mobile and tablet devices). By the end of the course you'll have the skills and resources to build a complete website from scratch.&nbsp;<br><br>Beyond that it also covers performance optimisation and the basics of SEO (search engine optimisation).&nbsp;
 
-**2\. What kind of website will you be able to build?&nbsp;**<br><br>At the moment there is one single-page web site template included (more advanced than what you have built currently) and in-depth tutorials allowing you to go beyond this.&nbsp;<br><br>Over the next two months we're adding dozens of new tutorials, additional templates AND these modular website templates – building blocks of HTML & CSS that you can copy + paste + customise to build a brand new website in no time.&nbsp;
+**2\. What kind of website will you be able to build?&nbsp;**<br><br>Website in a Weekend includes in-depth tutorials that help you go beyond the basics that you learnt in the 7 day challenge and learn how to build a custom website that built just for you.&nbsp;<br><br>To give you the flexibility of custom code, with the convenience of a drag-and-drop template we've coded this with modular website framework for you – building blocks of HTML & CSS that you can copy + paste + customise to build a brand new website in no time.&nbsp;
 
 ![](/uploads/screen-recording-2020-01-21-at-1-45-53-pm.gif){: width="1280" height="698"}
 
-If you enroll in the course now, you'll receive access to all future updates and tutorials at no additional cost.&nbsp;
+If you enroll in the course now, you'll receive access to all future updates and tutorials at no additional cost, in the next month alone we'll be adding:&nbsp;<br>\- building a dynamic 'hambuger' menu with jquery&nbsp;<br>\- adding a shop with shopify lite<br>\- adding live chat to your website<br>\- adding google analytics and the facebook pixel to your site&nbsp;<br>\- how to make your own social media navigation (like linktree) to have multiple links in your instagram bio.&nbsp;
 
-**3\. How much does Website in a Weekend cost?&nbsp;**<br><br>As soon as we release the additional tutorials mentioned above the price will be increasing to $450. It's currently $250, and we're giving all 7 day coding challenge participants a coupon '[7DAYCODING](https://ioc.podia.com/web-dev-101?coupon=7DAYCODING){: target="_blank"}' to receive $100 off for the next two weeks only.&nbsp;<br><br>If you decide to attend the bootcamp later, we'll credit the amount you spend on Website in a Weekend towards the bootcamp tuition.&nbsp;
+**3\. How much does Website in a Weekend cost?&nbsp;**<br><br>Website in a Weekend is $450, which includes access to lifetime updates and mentor-support in the private facebook community.<br><br>For the next two weeks only, we're giving all 7 day coding challenge participants a coupon '[7DAYCODING](https://ioc.podia.com/web-dev-101?coupon=7DAYCODING){: target="_blank"}' to receive $100 off.&nbsp;<br><br>If you decide to attend the bootcamp later, we'll credit the amount you spend on Website in a Weekend towards the bootcamp tuition.&nbsp;
 
 **4\. What kind of support is provided?&nbsp;**
 
@@ -63,9 +71,9 @@ Looking to take things to the next level? Our [hybrid bootcamp](http://www.insti
 
 This program goes well beyond the basics and teaches you how to build a freelance career as a web developer (or land a job at an agency if that's more your thing).&nbsp;
 
-**A few highlights in the curriculum:&nbsp;**<br>\- learning how to use jQuery (a library for Javascript) to add interactive elements like pop-up lightbox galleries, sliders / carousels, hamburger mobile menus etc.&nbsp;<br>\- how to create dynamic layouts for things like blog posts or project pages<br>\- how to create smooth animations on hover and other transitions&nbsp;<br>\- how to add live chat widget<br>\- how to add custom contact forms that sync with a CRM like Hubspot<br>\- how to create advanced layouts with overlapping elements (like the IOC website)<br>\- how to optimise your website for performance in every browser and on mobile devices&nbsp;
+**A few highlights in the curriculum:&nbsp;**<br>\- learning how to use jQuery (a library for Javascript) to add interactive elements like pop-up lightbox galleries, sliders / carousels, hamburger mobile menus etc.&nbsp;<br>\- how to create dynamic layouts for things like blog posts or project pages using jekyll<br>\- how to create smooth animations on hover and other transitions&nbsp;<br>\- how to add custom contact forms that sync with a CRM like Hubspot<br>\- how to create advanced designs with overlapping elements (like the IOC website)<br>\- advanced performance optimisation in every browser and on mobile devices&nbsp;
 
-Check out our [course page](http://www.instituteofcode.com/courses/web-dev){: target="_blank"} for all the details and examples of student projects\!&nbsp;<br><br>The main difference though between an online course and in-person immersive is in the practical experience – it's one thing to understand the theory of specific properties; It's another thing completely to build an entire website from scratch. We focus in the bootcamp on taking the skills you have learnt in the video modules and applying them, building things and breaking things, learning how to troubleshoot and write efficient code. So that by the time you finish the program you can confidently build website for yourself or clients, from start to finish.&nbsp;
+Check out our [course page](http://www.instituteofcode.com/courses/web-dev){: target="_blank"} for all the details and examples of student projects\!&nbsp;<br><br>The main difference though between an online course and in-person immersive is in the practical experience – it's one thing to understand the theory of specific properties; It's another thing completely to build an entire website from scratch. We focus in the bootcamp on taking the skills you have learnt in the video modules and applying them, building things and breaking things, learning how to troubleshoot and write efficient code. So that by the time you finish the program you can confidently build advanced websites for yourself or clients, from start to finish.&nbsp;
 
 ![](/images/21544120_1619366984782168_8914572262766507567_o.jpg){: width="2048" height="1365"}<br><br>We also cover how to take these skills and build them into a business, including how to find build an effective portfolio, find and pitch to clients, scope and price projects etc. We give our students everything they need to hit the ground running and start working on real client projects – and it's not uncommon for students to land their first paying client less than one month after the bootcamp.&nbsp;
 
@@ -75,4 +83,4 @@ Oh, and it doesn't hurt that our program is all-inclusive in this beautiful vill
 
 ![](/uploads/ioc-6.jpg){: width="800" height="533"}
 
-Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge. For more details and your chance to receive one of these scholarships [apply via our website mentioning this](http://www.instituteofcode.com/courses/web-dev){: target="_blank"}&nbsp;and then [book a call to chat](http://www.calendly.com/ioc){: target="_blank"} with our course advisor Terry or co-founder Tina.
+Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge.&nbsp;<br><br>To apply, send an email to tina@instituteofcode.com or DM Institute of Code on FB or Instagram and in a few sentences tell us why you want to attend the bootcamp.&nbsp;
