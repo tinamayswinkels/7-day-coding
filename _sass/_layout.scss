@@ -33,7 +33,7 @@ body {
 	}
 
 	@media (min-width: $mobile-break) {
-		padding: 0 0 0 $nav-width;
+// 		padding: 0 0 0 $nav-width;
 
 		&.nav-open {
 			overflow: auto;
