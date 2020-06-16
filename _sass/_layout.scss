@@ -50,7 +50,7 @@ body {
 
 		&::after {
 			left: 0;
-			width: $nav-width;
+// 			width: $nav-width;
 			background-color: $nav-background-color;
 		}
 
@@ -60,7 +60,7 @@ body {
 		}
 
 		&::before {
-			left: $nav-width;
+// 			left: $nav-width;
 			right: 0;
 			background-color: $content-background-color;
 		}
