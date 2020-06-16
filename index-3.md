@@ -25,7 +25,7 @@ Who would have thought that in only 7 days worth of lessons you could go from ze
 
 **[Keep lifetime access to the 7 day coding challenge for only $29](https://ioc.podia.com/?coupon=LOCKDOWN)&nbsp;**
 
-(offer only available in the next two weeks\!)
+or get access to all[3 challenges](https://ioc.podia.com/?coupon=LOCKDOWN){: target="_blank"} ( Coding + Instagram + Photography) for only $49
 
 ## **Free Coding Resources**
 
