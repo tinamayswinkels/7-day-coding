@@ -20,7 +20,13 @@ There are so many great coding resources out there, it's almost overwhelming\! H
 * [Codecademy&nbsp;](https://www.codecademy.com/){: target="_blank"}
 * [CoDrops CSS Reference](http://tympanus.net/codrops/css_reference/){: target="_blank"}
 
-## Our Website in a Weekend Online Course&nbsp;
+**Want to keep access to the 7 day challenge so that you can review the lessons at your own pace and build more splash pages? **
+
+**[Get lifetime access for only $29](https://ioc.podia.com/?coupon=LOCKDOWN) **
+
+(offer only available in the next two weeks\!)
+
+Our Website in a Weekend Online Course&nbsp;
 
 We've had so many questions about [our online course](https://www.instituteofcode.com/courses/web-dev-101/){: target="_blank"}, that we wanted to jump in and answer them here\!&nbsp;
 
