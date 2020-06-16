@@ -6,6 +6,14 @@ published: true
 permalink: /website-in-a-weekend/
 ---
 
+### The 7 Day challenge is now closed
+
+**Want to keep access to the 7 day challenge so that you can review the lessons at your own pace and build more splash pages? **
+
+**[Keep lifetime access to the 7 day coding challenge for only $29](https://ioc.podia.com/?coupon=LOCKDOWN) **
+
+(offer only available in the next two weeks\!)
+
 Want to continue your coding journey? We've had lots of questions about where to go from here, and wanted to lay out all of your options.&nbsp;
 
 ## **Free Coding Resources**
@@ -19,12 +27,6 @@ There are so many great coding resources out there, it's almost overwhelming\! H
 * [Alligator.io CSS Tips & Tricks](https://alligator.io/css/){: target="_blank"}
 * [Codecademy&nbsp;](https://www.codecademy.com/){: target="_blank"}
 * [CoDrops CSS Reference](http://tympanus.net/codrops/css_reference/){: target="_blank"}
-
-**Want to keep access to the 7 day challenge so that you can review the lessons at your own pace and build more splash pages? **
-
-**[Get lifetime access for only $29](https://ioc.podia.com/?coupon=LOCKDOWN) **
-
-(offer only available in the next two weeks\!)
 
 Our Website in a Weekend Online Course&nbsp;
 
