@@ -7,9 +7,19 @@ layout: default
 
 The 7 Day Coding Challenge is officially closed. It's been such a pleasure to share our joy of coding with so many people from all over the world and humbling to hear first hand how much you have enjoyed it.&nbsp;
 
-> *Keep reading for how to get $100 off Website in a Weekend for the next 7 days only, and an opportunity to receive a partial scholarship to attend our bootcamp in Bali.*
+### Get lifetime access to the challenge tutorials
+
+**Want to keep access to the 7-day challenge so that you can review the lessons at your own pace and build more splash pages?&nbsp;**
+
+**[Keep lifetime access to the 7 day coding challenge for only $29](https://ioc.podia.com/?coupon=LOCKDOWN)&nbsp;**
+
+or get access to all&nbsp;[3 challenges](https://ioc.podia.com/?coupon=LOCKDOWN){: target="_blank"} ( Coding + Instagram + Photography) for only $49
+
+## Course Wrap Up
 
 If you have found this free challenge valuable we would be so grateful if you would consider leaving us a review on [our facebook page](http://facebook.com/instituteofcode){: target="_blank"} with feedback for the free mini coding course.
+
+> ***Keep reading for how to get $100 off Website in a Weekend for the next 7 days only.***
 
 We would also welcome and constructive feedback you have about how we can make this course even better in future. With over 10,000 people signing up, this was our first time running an online program of this scale, and there have been lots of little lessons along the way but we're always open to hearing your thoughts and feedback via [email](mailto:hello@instituteofcode.com?subject=Feedback%20on%20Coding%20Challenge) or [DM](http://www.facebook.com/instituteofcode){: target="_blank"}.&nbsp;
 
@@ -18,14 +28,6 @@ Who would have thought that in only 7 days worth of lessons you could go from ze
 ![](/uploads/simple--2.png){: width="1159" height="2000"}
 
 *Want to continue your coding journey? We've had lots of questions about where to go from here, and wanted to lay out all of your options.&nbsp;*
-
-### Get lifetime access to the challenge tutorials
-
-**Want to keep access to the 7-day challenge so that you can review the lessons at your own pace and build more splash pages?&nbsp;**
-
-**[Keep lifetime access to the 7 day coding challenge for only $29](https://ioc.podia.com/?coupon=LOCKDOWN)&nbsp;**
-
-or get access to all[3 challenges](https://ioc.podia.com/?coupon=LOCKDOWN){: target="_blank"} ( Coding + Instagram + Photography) for only $49
 
 ## **Free Coding Resources**
 
@@ -51,7 +53,7 @@ It digs deeper into HTML & CSS, including more advanced styling, and making your
 
 ![](/uploads/screen-recording-2020-01-21-at-1-45-53-pm.gif){: width="1280" height="698"}
 
-If you enroll in the course now, you'll receive access to all future updates and tutorials at no additional cost, in the next month alone we'll be adding:&nbsp;<br>\- building a dynamic 'hambuger' menu with jquery&nbsp;<br>\- adding a shop with shopify lite<br>\- adding live chat to your website<br>\- adding google analytics and the facebook pixel to your site&nbsp;<br>\- how to make your own social media navigation (like linktree) to have multiple links in your instagram bio.&nbsp;
+If you enroll in the course now, you'll receive access to all future updates and tutorials at no additional cost, in the next month alone we'll be adding:&nbsp;<br>\- building a dynamic 'hamburger' menu with jquery&nbsp;<br>\- adding a shop with shopify lite<br>\- adding live chat to your website<br>\- adding google analytics and the facebook pixel to your site&nbsp;<br>\- how to make your own social media navigation (like linktree) to have multiple links in your instagram bio.&nbsp;
 
 **3\. How much does Website in a Weekend cost?&nbsp;**<br><br>Website in a Weekend is $450, which includes access to lifetime updates and mentor-support in the private facebook community.<br><br>For the next two weeks only, we're giving all 7 day coding challenge participants a coupon '[7DAYCODING](https://ioc.podia.com/web-dev-101?coupon=7DAYCODING){: target="_blank"}' to receive $100 off.&nbsp;<br><br>If you decide to attend the bootcamp later, we'll credit the amount you spend on Website in a Weekend towards the bootcamp tuition.&nbsp;
 
@@ -83,4 +85,4 @@ Oh, and it doesn't hurt that our program is all-inclusive in this beautiful vill
 
 ![](/uploads/ioc-6.jpg){: width="800" height="533"}
 
-Thinking about attending the bootcamp? We've put aside 2x $500 partial scholarships for those of you who have putting in the hard work and dedication to completing this 7 day challenge.&nbsp;<br><br>To apply, send an email to tina@instituteofcode.com or DM Institute of Code on FB or Instagram and in a few sentences tell us why you want to attend the bootcamp.&nbsp;
+Thinking about attending the bootcamp?&nbsp;<br><br>The first step is to apply via our website or send us a message on fb or IG - we'll send you more information about the course and give an opportunity to jump on a call with one of our course advisors.&nbsp;
